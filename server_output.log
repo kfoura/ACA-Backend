@@ -1,0 +1,67 @@
+
+Fetching classes for term 202535...
+Response status code: 200
+Successfully fetched 7930 classes for term 202535
+
+Fetching classes for term 202532...
+Response status code: 200
+Successfully fetched 530 classes for term 202532
+
+Fetching classes for term 202531...
+Response status code: 200
+Successfully fetched 21384 classes for term 202531
+
+Fetching classes for term 202522...
+Response status code: 200
+Successfully fetched 103 classes for term 202522
+
+Fetching classes for term 202521...
+Response status code: 200
+Successfully fetched 11827 classes for term 202521
+Howdy API initialized, loaded 5 terms: 
+Fall 2025 - Half Year Term (202535)
+Fall 2025 - Galveston (202532)
+Fall 2025 - College Station (202531)
+Summer 2025 - Galveston (202522)
+Summer 2025 - College Station (202521)
+
+ENDPOINTS.PY IS BEING USED
+Email credentials loaded - Sender: aggieclassalert@gmail.com, Password: ******
+
+Fetching classes for term 202535...
+Response status code: 200
+Successfully fetched 7930 classes for term 202535
+
+Fetching classes for term 202532...
+Response status code: 200
+Successfully fetched 530 classes for term 202532
+
+Fetching classes for term 202531...
+Response status code: 200
+Successfully fetched 21384 classes for term 202531
+
+Fetching classes for term 202522...
+Response status code: 200
+Successfully fetched 103 classes for term 202522
+
+Fetching classes for term 202521...
+Response status code: 200
+Successfully fetched 11827 classes for term 202521
+Howdy API initialized, loaded 5 terms: 
+Fall 2025 - Half Year Term (202535)
+Fall 2025 - Galveston (202532)
+Fall 2025 - College Station (202531)
+Summer 2025 - Galveston (202522)
+Summer 2025 - College Station (202521)
+
+Database indexes created successfully
+Flask API server started on http://localhost:5001
+Starting continuous monitoring of all CRNs in database
+Checking every 60 seconds. Press Ctrl+C to stop.
+ * Serving Flask app 'endpoints'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.9:5001
+[33mPress CTRL+C to quit[0m
