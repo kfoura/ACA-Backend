@@ -210,7 +210,7 @@ class Howdy_API:
                     if out["OTHER_ATTRIBUTES"]['Meeting times with profs'] and out['OTHER_ATTRIBUTES']['Meeting times with profs']['SWV_CLASS_SEARCH_INSTRCTR_JSON']:
                         instructor_info = out["OTHER_ATTRIBUTES"]['Meeting times with profs']['SWV_CLASS_SEARCH_INSTRCTR_JSON'][0]
                         out['INSTRUCTOR'] = instructor_info['NAME'].rstrip(' (P)')
-                        instructor_info['CV'] = f'https://compass-ssb.tamu.edu/pls/PROD/bwykfupd.p_showdoc?doctype_in=CV&pidm_in={instructor_info['MORE']}'
+                        instructor_info['CV'] = f"https://compass-ssb.tamu.edu/pls/PROD/bwykfupd.p_showdoc?doctype_in=CV&pidm_in={instructor_info['MORE']}"
                     else:
                         out['INSTRUCTOR'] = 'Not assigned'
                     
