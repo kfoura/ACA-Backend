@@ -16,7 +16,7 @@ class Howdy_API:
         self.terms = self.get_all_terms()
         self.term_codes_to_desc = {term['STVTERM_CODE']: term['STVTERM_DESC'] for term in self.terms}
         self.classes = {term['STVTERM_CODE']: self.get_classes(term['STVTERM_CODE']) for term in self.terms}
-        print(f"Howdy API initialized, loaded {len(self.terms)} terms: \n{'\n'.join([f\"{term['STVTERM_DESC']} ({term['STVTERM_CODE']})\" for term in self.terms])}\n")
+        #print(f"Howdy API initialized, loaded {len(self.terms)} terms: \n{'\n'.join([f\"{term['STVTERM_DESC']} ({term['STVTERM_CODE']})\" for term in self.terms])}\n")
 
 
     def get_all_terms(current=True):
