@@ -84,7 +84,7 @@ class Howdy_API:
                     if instructor == i['NAME']:
                         out.append(c)
                         if i['HAS_CV'] == 'Y':
-                            CV = f'https://compass-ssb.tamu.edu/pls/PROD/bwykfupd.p_showdoc?doctype_in=CV&pidm_in={i['MORE']}'
+                            CV = f"https://compass-ssb.tamu.edu/pls/PROD/bwykfupd.p_showdoc?doctype_in=CV&pidm_in={i['MORE']}"
                         break
         # grades = self.get_grade_distribution(c['SWV_CLASS_SEARCH_SUBJECT'], c['SWV_CLASS_SEARCH_COURSE'], instructor)
         # print(grades)
