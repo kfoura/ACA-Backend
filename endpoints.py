@@ -142,6 +142,14 @@ def add_alert():
     email = normalize_email(raw_email) if raw_email else ''
     print(f"Adding alert - CRN: {crn}, Term: {term_code}, Raw Email: {raw_email}, Normalized Email: {email}, Use Phone: {use_phone}")
     
+   # availability = api.get_availability()
+   # if term_code in availability and crn in availability:
+   #     is_available = availability[term_code][crn]
+   #     if is_available:
+   #         print(f"CRN {crn} is already available, blocking alert creation.")
+   #         return jsonify({'error': f'CRN {crn} is already available!'}), 400
+
+
     # Validate CRN format
     if not crn.isdigit():
         return jsonify({'error': 'CRN must contain only numbers'}), 400
@@ -208,14 +216,15 @@ def add_alert():
                         )
                         print(f"Updated user phone data for {email}")
                     else:
-                        # Get phone information from existing user if not provided
-                        if not user_phone_number:
-                            user_phone_number = existing_user.get('phone_number')
-                        if not user_phone_verified:
-                            user_phone_verified = existing_user.get('phone_verified', False)
-                        if not user_phone_carrier:
-                            user_phone_carrier = existing_user.get('phone_carrier')
-                    
+                        if email == existing_user.get("email"):
+                            # Get phone information from existing user if not provided
+                            if not user_phone_number:
+                                user_phone_number = existing_user.get('phone_number')
+                            if not user_phone_verified:
+                                user_phone_verified = existing_user.get('phone_verified', False)
+                            if not user_phone_carrier:
+                                user_phone_carrier = existing_user.get('phone_carrier')
+                        
                     print(f"Phone info retrieved/updated - Number: {user_phone_number}, Verified: {user_phone_verified}, Carrier: {user_phone_carrier}")
                     
                     if use_phone and user_phone_number and user_phone_verified and user_phone_carrier:
@@ -392,7 +401,7 @@ def get_alerts():
 
 def run_flask():
     """Run the Flask API server"""
-    app.run(host='0.0.0.0', port=5001, debug=False)
+    app.run(host='localhost', port=3000, debug=False)
 
 async def monitor_crns(interval=60):
     """
@@ -644,7 +653,7 @@ def run():
     # Set up command line arguments
     parser = argparse.ArgumentParser(description='Run the AggieClassAlert backend server.')
     parser.add_argument('--port', type=int, default=5001, help='Port to run the server on')
-    parser.add_argument('--host', type=str, default='0.0.0.0', help='Host to run the server on')
+    parser.add_argument('--host', type=str, default='localhost', help='Host to run the server on')
     parser.add_argument('--debug', action='store_true', help='Run in debug mode')
     parser.add_argument('--no-monitor', action='store_true', help='Disable monitoring thread')
     args = parser.parse_args()
@@ -654,7 +663,12 @@ def run():
     
     # Start monitoring thread if not disabled
     if not args.no_monitor:
-        monitor_thread = threading.Thread(target=asyncio.run, args=(monitor_crns(),))
+        def run_monitor():
+            loop = asyncio.new_event_loop()
+            asyncio.set_event_loop(loop)
+            loop.run_until_complete(monitor_crns())
+
+        monitor_thread = threading.Thread(target=run_monitor)
         monitor_thread.daemon = True
         monitor_thread.start()
         print("Monitoring thread started")
@@ -1334,11 +1348,11 @@ def search_professors():
         # Format the data for frontend
         formatted_professors = []
         
+        # First add all professors with historical data
         for prof_name, data in professors_data.items():
             overall_gpa = data['overall']
             regular_gpa = data['regular']
             honors_gpa = data['honors']
-            #isGalveston
             
             # Check if professor is teaching in the upcoming semester
             # A professor is teaching if they're in the matched_historical_professors set
@@ -1377,7 +1391,7 @@ def search_professors():
             if teaching_next_term and RMP_AVAILABLE:
                 try:
                     print(f"\n===== GETTING RMP DATA for {prof_name} ({hist_last_name}) =====")
-                    rmp_data = RMP.get_professor_rating(hist_last_name, department)
+                    rmp_data = RMP.get_professor_rating(prof_name, department)
                     print(f"RMP data for {prof_name} ({hist_last_name}): {rmp_data}")
                 except Exception as rmp_err:
                     print(f"Error getting RMP data for {prof_name}: {rmp_err}")
@@ -1405,7 +1419,8 @@ def search_professors():
                 'rmp_would_take_again': rmp_data['would_take_again'], 
                 'rmp_difficulty': rmp_data['difficulty'],
                 'rmp_comments': rmp_data['comments'],
-                'rmp_found': rmp_data['found']
+                'rmp_found': rmp_data['found'],
+                'has_historical_data': True
             }
             
             # Add teaching info if available
@@ -1582,20 +1597,7 @@ def search_professors():
                 print(f"\nFound {len(professor_sections)} total sections for {prof_name}:")
                 for i, section in enumerate(professor_sections):
                     print(f"  [{i+1}] Section {section['section']} (CRN: {section['crn']})")
-                locations = ['ONRP', 'ACAD', 'ADAM', 'AEPM', 'AESH', 'AGLS', 'AGRL', 'ALLN', 'EQNB', 'BPCC', 'ANTH', 'ARTF', 'ARCB', 'ARCC', 'RNCH', 'BEAS', 'BEUT', 'BICH', 'BCC', 'BSBE', 'BSBW', 'BIZL', 'BLOC', 'BLTN', 'SCIC', 'BRIG', 'HRBB', 'BFC', 'BMSB', 'BTLR', 'CAIN', 'CPAT', 'CMAT', 'CVLB', 'CEN', 'CUSE', 'CCPG', 'CUP', 'CHEM', 'CHAN', 'CE', 'CLEM', 'CEL', 'COKE', 'COMM', 'CSC', 'CONC', 'INSC', 'DAVI', 'DRTY', 'DLH', 'CSA', 'DCAN', 'DUNN', 'EBRF', 'ETB', 'ANIN', 'EIC', 'ERLB', 'EPPR', 'EQCT', 'ESTI', 'LIBR', 'FERM', 'FGGH', 'FSLB', 'FOUN', 'FOWL', 'FOOD', 'FREE', 'GAIN', 'GSC', 'BPLM', 'GGB', 'GOLF', 'ODM', 'HAAS', 'HGLR', 'HALB', 'HARL', 'HECC', 'EDCT', 'HARR', 'HART', 'HEAT', 'HPCT', 'HLB', 'HELD', 'HEND', 'HOBB', 'HRCT', 'HTGH', 'HFSB', 'HOTA', 'HUGH', 'ODP', 'ILSB', 'ILCB', 'ILSQ', 'CHEN', 'RICH', 'LIND', 'KEAT', 'KIES', 'KSWT', 'KLCT', 'JJKB', 'KRUE', 'KYLE', 'LARR', 'LACY', 'ARCA', 'LECH', 'LEGE', 'LEON', 'LAAH', 'CYCL', 'MCFA', 'MCNW', 'MEOB', 'MEDL', 'GLAS', 'MSC', 'MILS', 'MIST', 'MPHY', 'KAMU', 'MOSE', 'MOSH', 'MASS', 'NGLE', 'NCTM', 'NEEL', 'WIND', 'NSPG', 'NMR', 'NFFL', 'O&M','OTRC', 'E.D.', 'OLSN', 'WCTC', 'PAV', 'PRPV', 'PISC', 'PGBG', 'PETR', 'PPGM', 'PLNT', 'OBSV', 'PHRL', 'POSC', 'PSNP', 'FARM', 'PRES', 'HOBG', 'PSYC', 'PRCH', 'REED', 'RDMC', 'REPR', 'REYN', 'OBSR', 'MSTC', 'RUDD', 'RDER', 'SCCT', 'SBSA', 'SPHADM', 'SPHCLS', 'SPHLAB', 'SCHU', 'SCTS', 'OMAR', 'STL', 'SSPG', 'SPEN', 'STCH', 'SREC', 'West Campus', 'TEAS', 'TEAG', 'TEES', 'TEEX', 'ELTC', 'TIGM', 'TIPS A', 'TIPS B', 'TIPS C', 'TIPS', 'AMSB', 'VMDL', 'AGCT', 'VMTF', 'THOM', 'TICK', 'TTIHQ', 'TURF', 'VMB3', 'VMCA', 'VIV2', 'VMSB', 'UNDE', 'UCPG', 'USB', 'UTAY', 'UCO', 'UEOA', 'FSSB', 'VAPA', 'VLAH', 'VMS', 'VMA', 'VRB', 'VSAH', 'VTH', 'PRVP', 'VIV3', 'LFB', 'WALT', 'WWTP', 'WCBA', 'WELL', 'WCFL', 'WCG', 'WHIT', 'WHTE', 'WFES', 'CLAC', 'WEB', 'TPBB', 'TPDB', 'TPPP', 'TPSP', 'YMCA', 'ZACH']
-
-                if len(professor_sections) > 0 and professor_sections[0]['meetings']:
-                    # Check if any meeting is in a College Station building
-                    is_college_station = False
-                    for meeting in professor_sections[0]['meetings']:
-                        if meeting['building'] in locations:
-                            is_college_station = True
-                            break
-                    professor['isGalveston'] = not is_college_station
-                else:
-                    # Default to Galveston if no meeting info available
-                    professor['isGalveston'] = False
-
+                
                 # Add highlighted summary of all sections
                 print("\n" + "*" * 80)
                 print(f"SECTION SUMMARY FOR PROFESSOR: {prof_name}")
@@ -1619,13 +1621,224 @@ def search_professors():
                 
                 if len(professor_sections) > 0:
                     professor['courses'] = professor_sections
+            
+            formatted_professors.append(professor)
+        
+        # Now add professors from current sections that don't have historical data
+        for curr_name, curr_data in current_instructors.items():
+            # Skip if this professor already has historical data
+            if any(p['name'] == curr_name for p in formatted_professors):
+                print(f"Skipping {curr_name} - already has historical data")
+                continue
                 
-                # Skip professors with isGalveston set to true
-                if professor.get('isGalveston', False):
-                    print(f"Skipping Galveston professor: {prof_name}")
-                    continue
+            # Also check if this professor's last name matches any historical professor's last name
+            # This handles cases where the name format might be slightly different
+            curr_last_name = curr_data['last_name']
+            has_historical_data = False
+            for prof in formatted_professors:
+                if prof['last_name'].lower() == curr_last_name.lower():
+                    print(f"Skipping {curr_name} - matches historical professor {prof['name']} by last name")
+                    has_historical_data = True
+                    break
+            
+            if has_historical_data:
+                continue
                 
-                formatted_professors.append(professor)
+            # Get RateMyProfessor data
+            rmp_data = {
+                "overall_rating": None,
+                "would_take_again": None, 
+                "difficulty": None,
+                "comments": {},
+                "found": False
+            }
+            
+            if RMP_AVAILABLE:
+                try:
+                    print(f"\n===== GETTING RMP DATA for {curr_name} ({curr_data['last_name']}) =====")
+                    rmp_data = RMP.get_professor_rating(curr_data['last_name'], department)
+                    print(f"RMP data for {curr_name} ({curr_data['last_name']}): {rmp_data}")
+                except Exception as rmp_err:
+                    print(f"Error getting RMP data for {curr_name}: {rmp_err}")
+            
+            professor = {
+                'name': curr_name,
+                'average_gpa': None,
+                'regular_gpa': None,
+                'honors_gpa': None,
+                'has_regular': False,
+                'has_honors': False,
+                'regular_count': 0,
+                'honors_count': 0,
+                'department': department,
+                'courses': [f"{department} {course_code}"],
+                'teaching_next_term': True,
+                'last_name': curr_data['last_name'],
+                'matched_with': curr_name,
+                # Add RateMyProfessor data
+                'rmp_rating': rmp_data['overall_rating'],
+                'rmp_would_take_again': rmp_data['would_take_again'], 
+                'rmp_difficulty': rmp_data['difficulty'],
+                'rmp_comments': rmp_data['comments'],
+                'rmp_found': rmp_data['found'],
+                'has_historical_data': False,
+                'section': curr_data.get('section', ''),
+                'crn': curr_data.get('crn', ''),
+                'term_code': curr_data.get('term_code', ''),
+                'term_desc': curr_data.get('term_desc', '')
+            }
+            
+            # COLLECT ALL SECTIONS FOR THIS PROFESSOR
+            professor_sections = []
+            
+            # DIRECT APPROACH: Check all sections from the API response
+            if 'sections' in locals() and sections:
+                print("Checking all API sections for matching instructors...")
+                
+                for section in sections:
+                    section_number = section.get('SWV_CLASS_SEARCH_SECTION', '')
+                    crn = section.get('SWV_CLASS_SEARCH_CRN', '')
+                    
+                    # Skip if this section is already in our list
+                    if any(ps['section'] == section_number for ps in professor_sections):
+                        continue
+                    
+                    # Check if this section has our professor
+                    instructor_json_str = section.get('SWV_CLASS_SEARCH_INSTRCTR_JSON', None)
+                    if instructor_json_str:
+                        instructor_found = False
+                        
+                        # Parse instructor JSON if needed
+                        try:
+                            # Handle both string and object formats
+                            instructors = []
+                            if isinstance(instructor_json_str, str):
+                                # Clean up JSON string and parse it
+                                cleaned_json = instructor_json_str.replace('\\"', '"')
+                                if cleaned_json.startswith('"') and cleaned_json.endswith('"'):
+                                    cleaned_json = cleaned_json[1:-1]
+                                instructors = json.loads(cleaned_json)
+                                if not isinstance(instructors, list):
+                                    instructors = [instructors]
+                            else:
+                                # Direct object
+                                if isinstance(instructor_json_str, list):
+                                    instructors = instructor_json_str
+                                else:
+                                    instructors = [instructor_json_str]
+                            
+                            # Check each instructor in this section
+                            for instructor in instructors:
+                                if 'NAME' in instructor:
+                                    instructor_name = instructor['NAME'].replace(' (P)', '')
+                                    instructor_last_name = extract_last_name(instructor_name).lower()
+                                    
+                                    # Check if this instructor matches our professor
+                                    if instructor_last_name == curr_data['last_name']:
+                                        print(f"  ✓ Found match in section {section_number}: {instructor_name} (last name: {instructor_last_name})")
+                                        
+                                        # Extract meeting time information if available
+                                        meeting_info = []
+                                        try:
+                                            if section.get('SWV_CLASS_SEARCH_JSON_CLOB'):
+                                                meeting_json = section.get('SWV_CLASS_SEARCH_JSON_CLOB')
+                                                if isinstance(meeting_json, str):
+                                                    meeting_json = json.loads(meeting_json)
+                                                
+                                                if isinstance(meeting_json, list):
+                                                    for meeting in meeting_json:
+                                                        # Build day string
+                                                        days = []
+                                                        if meeting.get('SSRMEET_MON_DAY'): days.append('M')
+                                                        if meeting.get('SSRMEET_TUE_DAY'): days.append('T')
+                                                        if meeting.get('SSRMEET_WED_DAY'): days.append('W')
+                                                        if meeting.get('SSRMEET_THU_DAY'): days.append('R')
+                                                        if meeting.get('SSRMEET_FRI_DAY'): days.append('F')
+                                                        if meeting.get('SSRMEET_SAT_DAY'): days.append('S')
+                                                        if meeting.get('SSRMEET_SUN_DAY'): days.append('U')
+                                                        
+                                                        meeting_info.append({
+                                                            'days': ''.join(days) if days else 'N/A',
+                                                            'start_time': meeting.get('SSRMEET_BEGIN_TIME', 'N/A'),
+                                                            'end_time': meeting.get('SSRMEET_END_TIME', 'N/A'),
+                                                            'building': meeting.get('SSRMEET_BLDG_CODE', 'N/A'),
+                                                            'room': meeting.get('SSRMEET_ROOM_CODE', 'N/A')
+                                                        })
+                                        except Exception as meeting_err:
+                                            print(f"Error extracting meeting info for section {section_number}: {meeting_err}")
+                                        
+                                        section_info = {
+                                            'section': section_number,
+                                            'crn': crn,
+                                            'meetings': meeting_info if meeting_info else None,
+                                            'is_available': section.get('STUSEAT_OPEN', 'N') == 'Y'
+                                        }
+                                        
+                                        professor_sections.append(section_info)
+                                        instructor_found = True
+                                        break
+                        except Exception as e:
+                            # Try regex as fallback if JSON parsing fails
+                            try:
+                                pattern = r'"NAME"\s*:\s*"([^"]+)"'
+                                name_matches = re.findall(pattern, instructor_json_str if isinstance(instructor_json_str, str) else str(instructor_json_str))
+                                
+                                for raw_name in name_matches:
+                                    instructor_name = raw_name.replace(' (P)', '')
+                                    instructor_last_name = extract_last_name(instructor_name).lower()
+                                    
+                                    # Check if this instructor matches our professor
+                                    if instructor_last_name == curr_data['last_name']:
+                                        print(f"  ✓ Found match in section {section_number} (via regex): {instructor_name} (last name: {instructor_last_name})")
+                                        
+                                        # Extract meeting time information if available
+                                        meeting_info = []
+                                        try:
+                                            if section.get('SWV_CLASS_SEARCH_JSON_CLOB'):
+                                                meeting_json = section.get('SWV_CLASS_SEARCH_JSON_CLOB')
+                                                if isinstance(meeting_json, str):
+                                                    meeting_json = json.loads(meeting_json)
+                                                
+                                                if isinstance(meeting_json, list):
+                                                    for meeting in meeting_json:
+                                                        # Build day string
+                                                        days = []
+                                                        if meeting.get('SSRMEET_MON_DAY'): days.append('M')
+                                                        if meeting.get('SSRMEET_TUE_DAY'): days.append('T')
+                                                        if meeting.get('SSRMEET_WED_DAY'): days.append('W')
+                                                        if meeting.get('SSRMEET_THU_DAY'): days.append('R')
+                                                        if meeting.get('SSRMEET_FRI_DAY'): days.append('F')
+                                                        if meeting.get('SSRMEET_SAT_DAY'): days.append('S')
+                                                        if meeting.get('SSRMEET_SUN_DAY'): days.append('U')
+                                                        
+                                                        meeting_info.append({
+                                                            'days': ''.join(days) if days else 'N/A',
+                                                            'start_time': meeting.get('SSRMEET_BEGIN_TIME', 'N/A'),
+                                                            'end_time': meeting.get('SSRMEET_END_TIME', 'N/A'),
+                                                            'building': meeting.get('SSRMEET_BLDG_CODE', 'N/A'),
+                                                            'room': meeting.get('SSRMEET_ROOM_CODE', 'N/A')
+                                                        })
+                                        except Exception as meeting_err:
+                                            print(f"Error extracting meeting info for section {section_number}: {meeting_err}")
+                                        
+                                        section_info = {
+                                            'section': section_number,
+                                            'crn': crn,
+                                            'meetings': meeting_info if meeting_info else None,
+                                            'is_available': section.get('STUSEAT_OPEN', 'N') == 'Y'
+                                        }
+                                        
+                                        professor_sections.append(section_info)
+                                        instructor_found = True
+                                        break
+                                        break
+                            except Exception as regex_err:
+                                print(f"Error trying to extract instructor via regex: {regex_err}")
+            
+            if len(professor_sections) > 0:
+                professor['courses'] = professor_sections
+            
+            formatted_professors.append(professor)
         
         return jsonify({
             'professors': formatted_professors

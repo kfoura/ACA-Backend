@@ -53,7 +53,7 @@ def find_profs(department, course_code):
         print(f"Section: '{section}' => Clean: '{clean_section}' => Honors: {is_honors}")
         
         # Check if the section number starts with 2
-        if int(c['year']) >= 2020:
+        if int(c['year']) >= 2021:
             if is_honors:
                 profs[prof]['honors'].append(gpa)
                 print(f"  Added to '{prof}' HONORS: {gpa}")
