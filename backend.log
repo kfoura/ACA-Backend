@@ -1,0 +1,1618 @@
+nohup: ignoring input
+
+Fetching classes for term 202535...
+Response status code: 200
+Successfully fetched 7930 classes for term 202535
+
+Fetching classes for term 202532...
+Response status code: 200
+Successfully fetched 540 classes for term 202532
+
+Fetching classes for term 202531...
+Response status code: 200
+Successfully fetched 21435 classes for term 202531
+
+Fetching classes for term 202523...
+Response status code: 200
+Successfully fetched 48 classes for term 202523
+
+Fetching classes for term 202522...
+Response status code: 200
+Successfully fetched 106 classes for term 202522
+
+Fetching classes for term 202521...
+Response status code: 200
+Successfully fetched 11821 classes for term 202521
+{"classes":[{"dept":"CSCE","number":"312","section":"501","A":"3","B":"8","C":"7","D":"1","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"MAHAPATRA R","year":"2012","semester":"SPRING","gpa":"2.6842105263157894"},{"dept":"CSCE","number":"312","section":"502","A":"8","B":"8","C":"1","D":"0","F":"1","I":"0","S":"0","U":"0","Q":"1","X":"0","prof":"MAHAPATRA R","year":"2012","semester":"SPRING","gpa":"3.2222222222222223"},{"dept":"CSCE","number":"312","section":"503","A":"2","B":"6","C":"4","D":"2","F":"2","I":"0","S":"0","U":"0","Q":"1","X":"0","prof":"MAHAPATRA R","year":"2012","semester":"SPRING","gpa":"2.25"},{"dept":"CSCE","number":"312","section":"501","A":"1","B":"8","C":"8","D":"1","F":"1","I":"0","S":"0","U":"0","Q":"1","X":"0","prof":"MAHAPATRA R","year":"2012","semester":"FALL","gpa":"2.3684210526315788"},{"dept":"CSCE","number":"312","section":"502","A":"9","B":"15","C":"4","D":"0","F":"3","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"MAHAPATRA R","year":"2012","semester":"FALL","gpa":"2.870967741935484"},{"dept":"CSCE","number":"312","section":"503","A":"13","B":"12","C":"2","D":"0","F":"2","I":"0","S":"0","U":"0","Q":"1","X":"0","prof":"MAHAPATRA R","year":"2012","semester":"FALL","gpa":"3.1724137931034484"},{"dept":"CSCE","number":"312","section":"501","A":"6","B":"15","C":"4","D":"2","F":"5","I":"0","S":"0","U":"0","Q":"1","X":"0","prof":"LEE H","year":"2013","semester":"SPRING","gpa":"2.46875"},{"dept":"CSCE","number":"312","section":"502","A":"10","B":"7","C":"8","D":"1","F":"4","I":"0","S":"0","U":"0","Q":"2","X":"0","prof":"LEE H","year":"2013","semester":"SPRING","gpa":"2.6"},{"dept":"CSCE","number":"312","section":"501","A":"11","B":"13","C":"8","D":"0","F":"1","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"MAHAPATRA R","year":"2013","semester":"FALL","gpa":"3"},{"dept":"CSCE","number":"312","section":"502","A":"10","B":"11","C":"8","D":"1","F":"4","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"MAHAPATRA R","year":"2013","semester":"FALL","gpa":"2.6470588235294117"},{"dept":"CSCE","number":"312","section":"503","A":"7","B":"11","C":"8","D":"4","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"MAHAPATRA R","year":"2013","semester":"FALL","gpa":"2.7"},{"dept":"CSCE","number":"312","section":"501","A":"5","B":"2","C":"7","D":"1","F":"0","I":"0","S":"0","U":"0","Q":"2","X":"0","prof":"KIM E","year":"2014","semester":"SPRING","gpa":"2.7333333333333334"},{"dept":"CSCE","number":"312","section":"502","A":"14","B":"7","C":"2","D":"1","F":"0","I":"0","S":"0","U":"0","Q":"2","X":"0","prof":"KIM E","year":"2014","semester":"SPRING","gpa":"3.4166666666666665"},{"dept":"CSCE","number":"312","section":"100","A":"11","B":"5","C":"1","D":"0","F":"0","I":"1","S":"0","U":"0","Q":"0","X":"0","prof":"HAMMOND T","year":"2014","semester":"SUMMER","gpa":"3.588235294117647"},{"dept":"CSCE","number":"312","section":"501","A":"10","B":"11","C":"3","D":"5","F":"2","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"MAHAPATRA R","year":"2014","semester":"FALL","gpa":"2.70967741935484"},{"dept":"CSCE","number":"312","section":"502","A":"6","B":"13","C":"9","D":"1","F":"1","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"MAHAPATRA R","year":"2014","semester":"FALL","gpa":"2.73333333333333"},{"dept":"CSCE","number":"312","section":"503","A":"6","B":"12","C":"6","D":"0","F":"1","I":"0","S":"0","U":"0","Q":"1","X":"0","prof":"MAHAPATRA R","year":"2014","semester":"FALL","gpa":"2.88"},{"dept":"CSCE","number":"312","section":"504","A":"4","B":"6","C":"8","D":"2","F":"3","I":"0","S":"0","U":"0","Q":"1","X":"0","prof":"MAHAPATRA R","year":"2014","semester":"FALL","gpa":"2.26086956521739"},{"dept":"CSCE","number":"312","section":"501","A":"11","B":"11","C":"6","D":"3","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"KIM E","year":"2015","semester":"SPRING","gpa":"2.96774193548387"},{"dept":"CSCE","number":"312","section":"502","A":"15","B":"7","C":"6","D":"1","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"KIM E","year":"2015","semester":"SPRING","gpa":"3.24137931034483"},{"dept":"CSCE","number":"312","section":"503","A":"14","B":"6","C":"2","D":"4","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"KIM E","year":"2015","semester":"SPRING","gpa":"3.15384615384615"},{"dept":"CSCE","number":"312","section":"200","A":"14","B":"7","C":"0","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"1","X":"0","prof":"KIM E","year":"2015","semester":"FALL","gpa":"3.66666666666667"},{"dept":"CSCE","number":"312","section":"501","A":"10","B":"9","C":"10","D":"2","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"MAHAPATRA R","year":"2015","semester":"FALL","gpa":"2.87096774193548"},{"dept":"CSCE","number":"312","section":"502","A":"10","B":"10","C":"10","D":"2","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"MAHAPATRA R","year":"2015","semester":"FALL","gpa":"2.875"},{"dept":"CSCE","number":"312","section":"503","A":"5","B":"19","C":"7","D":"1","F":"0","I":"0","S":"0","U":"0","Q":"1","X":"0","prof":"MAHAPATRA R","year":"2015","semester":"FALL","gpa":"2.875"},{"dept":"CSCE","number":"312","section":"504","A":"13","B":"7","C":"0","D":"0","F":"1","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"TYAGI A","year":"2015","semester":"FALL","gpa":"3.47619047619048"},{"dept":"CSCE","number":"312","section":"505","A":"10","B":"6","C":"6","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"TYAGI A","year":"2015","semester":"FALL","gpa":"3.18181818181818"},{"dept":"CSCE","number":"312","section":"501","A":"10","B":"9","C":"9","D":"2","F":"1","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"TYAGI A","year":"2016","semester":"SPRING","gpa":"2.80645161290323"},{"dept":"CSCE","number":"312","section":"502","A":"5","B":"17","C":"8","D":"2","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"TYAGI A","year":"2016","semester":"SPRING","gpa":"2.78125"},{"dept":"CSCE","number":"312","section":"503","A":"10","B":"17","C":"7","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"TYAGI A","year":"2016","semester":"SPRING","gpa":"3.08823529411765"},{"dept":"CSCE","number":"312","section":"301","A":"11","B":"11","C":"5","D":"0","F":"1","I":"1","S":"0","U":"0","Q":"1","X":"0","prof":"TYAGI A","year":"2016","semester":"SUMMER","gpa":"3.10714285714286"},{"dept":"CSCE","number":"312","section":"200","A":"15","B":"4","C":"1","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"KIM E","year":"2016","semester":"FALL","gpa":"3.7"},{"dept":"CSCE","number":"312","section":"501","A":"3","B":"5","C":"2","D":"1","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"YUM K","year":"2016","semester":"FALL","gpa":"2.90909090909091"},{"dept":"CSCE","number":"312","section":"502","A":"7","B":"3","C":"2","D":"2","F":"2","I":"0","S":"0","U":"0","Q":"1","X":"0","prof":"YUM K","year":"2016","semester":"FALL","gpa":"2.6875"},{"dept":"CSCE","number":"312","section":"503","A":"8","B":"7","C":"2","D":"0","F":"2","I":"0","S":"0","U":"0","Q":"1","X":"0","prof":"YUM K","year":"2016","semester":"FALL","gpa":"3"},{"dept":"CSCE","number":"312","section":"504","A":"10","B":"13","C":"8","D":"1","F":"0","I":"1","S":"0","U":"0","Q":"1","X":"0","prof":"TYAGI A","year":"2016","semester":"FALL","gpa":"3"},{"dept":"CSCE","number":"312","section":"505","A":"16","B":"13","C":"1","D":"1","F":"0","I":"2","S":"0","U":"0","Q":"0","X":"0","prof":"TYAGI A","year":"2016","semester":"FALL","gpa":"3.41935483870968"},{"dept":"CSCE","number":"312","section":"506","A":"12","B":"13","C":"4","D":"0","F":"0","I":"2","S":"0","U":"0","Q":"0","X":"0","prof":"TYAGI A","year":"2016","semester":"FALL","gpa":"3.27586206896552"},{"dept":"CSCE","number":"312","section":"501","A":"3","B":"9","C":"9","D":"2","F":"1","I":"0","S":"0","U":"0","Q":"1","X":"0","prof":"JIMENEZ D","year":"2017","semester":"SPRING","gpa":"2.45833333333333"},{"dept":"CSCE","number":"312","section":"502","A":"8","B":"12","C":"4","D":"3","F":"1","I":"0","S":"0","U":"0","Q":"1","X":"0","prof":"JIMENEZ D","year":"2017","semester":"SPRING","gpa":"2.82142857142857"},{"dept":"CSCE","number":"312","section":"504","A":"9","B":"11","C":"8","D":"0","F":"3","I":"1","S":"0","U":"0","Q":"1","X":"0","prof":"YUM K","year":"2017","semester":"SPRING","gpa":"2.74193548387097"},{"dept":"CSCE","number":"312","section":"506","A":"11","B":"10","C":"6","D":"1","F":"1","I":"1","S":"0","U":"0","Q":"0","X":"0","prof":"YUM K","year":"2017","semester":"SPRING","gpa":"3"},{"dept":"CSCE","number":"312","section":"301","A":"21","B":"9","C":"2","D":"0","F":"0","I":"1","S":"0","U":"0","Q":"0","X":"0","prof":"TYAGI A","year":"2017","semester":"SUMMER","gpa":"3.59375"},{"dept":"CSCE","number":"312","section":"200","A":"11","B":"1","C":"0","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"KIM E","year":"2017","semester":"FALL","gpa":"3.91666666666667"},{"dept":"CSCE","number":"312","section":"501","A":"11","B":"11","C":"6","D":"0","F":"1","I":"0","S":"0","U":"0","Q":"1","X":"0","prof":"TYAGI A","year":"2017","semester":"FALL","gpa":"3.06896551724138"},{"dept":"CSCE","number":"312","section":"502","A":"5","B":"13","C":"10","D":"0","F":"1","I":"0","S":"0","U":"0","Q":"1","X":"0","prof":"TYAGI A","year":"2017","semester":"FALL","gpa":"2.72413793103448"},{"dept":"CSCE","number":"312","section":"504","A":"5","B":"7","C":"8","D":"1","F":"0","I":"1","S":"0","U":"0","Q":"1","X":"0","prof":"TYAGI A","year":"2017","semester":"FALL","gpa":"2.76190476190476"},{"dept":"CSCE","number":"312","section":"505","A":"4","B":"8","C":"4","D":"1","F":"1","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"TYAGI A","year":"2017","semester":"FALL","gpa":"2.72222222222222"},{"dept":"CSCE","number":"312","section":"200","A":"7","B":"0","C":"1","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"KIM E","year":"2018","semester":"SPRING","gpa":"3.75"},{"dept":"CSCE","number":"312","section":"201","A":"16","B":"0","C":"0","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"1","X":"0","prof":"TYAGI A","year":"2018","semester":"SPRING","gpa":"4"},{"dept":"CSCE","number":"312","section":"501","A":"6","B":"16","C":"4","D":"0","F":"2","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"JIMENEZ D","year":"2018","semester":"SPRING","gpa":"2.85714285714286"},{"dept":"CSCE","number":"312","section":"502","A":"7","B":"11","C":"2","D":"1","F":"2","I":"0","S":"0","U":"0","Q":"4","X":"0","prof":"JIMENEZ D","year":"2018","semester":"SPRING","gpa":"2.8695652173913"},{"dept":"CSCE","number":"312","section":"503","A":"13","B":"3","C":"7","D":"0","F":"1","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"KIM E","year":"2018","semester":"SPRING","gpa":"3.125"},{"dept":"CSCE","number":"312","section":"504","A":"19","B":"5","C":"3","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"KIM E","year":"2018","semester":"SPRING","gpa":"3.59259259259259"},{"dept":"CSCE","number":"312","section":"505","A":"16","B":"4","C":"4","D":"2","F":"1","I":"0","S":"0","U":"0","Q":"4","X":"0","prof":"TYAGI A","year":"2018","semester":"SPRING","gpa":"3.18518518518519"},{"dept":"CSCE","number":"312","section":"506","A":"10","B":"8","C":"3","D":"2","F":"0","I":"0","S":"0","U":"0","Q":"1","X":"0","prof":"TYAGI A","year":"2018","semester":"SPRING","gpa":"3.1304347826087"},{"dept":"CSCE","number":"312","section":"507","A":"7","B":"8","C":"4","D":"3","F":"2","I":"1","S":"0","U":"0","Q":"3","X":"0","prof":"TYAGI A","year":"2018","semester":"SPRING","gpa":"2.625"},{"dept":"CSCE","number":"312","section":"200","A":"16","B":"6","C":"4","D":"1","F":"2","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"KIM E","year":"2018","semester":"SUMMER","gpa":"3.13793103448276"},{"dept":"CSCE","number":"312","section":"200","A":"10","B":"4","C":"0","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"KIM E","year":"2018","semester":"FALL","gpa":"3.71428571428571"},{"dept":"CSCE","number":"312","section":"501","A":"17","B":"8","C":"3","D":"1","F":"0","I":"0","S":"0","U":"0","Q":"1","X":"0","prof":"TYAGI A","year":"2018","semester":"FALL","gpa":"3.41379310344828"},{"dept":"CSCE","number":"312","section":"502","A":"13","B":"12","C":"3","D":"0","F":"1","I":"0","S":"0","U":"0","Q":"1","X":"0","prof":"TYAGI A","year":"2018","semester":"FALL","gpa":"3.24137931034483"},{"dept":"CSCE","number":"312","section":"504","A":"4","B":"8","C":"1","D":"0","F":"1","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"DASS J","year":"2018","semester":"FALL","gpa":"3"},{"dept":"CSCE","number":"312","section":"505","A":"5","B":"8","C":"6","D":"2","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"DASS J","year":"2018","semester":"FALL","gpa":"2.76190476190476"},{"dept":"CSCE","number":"312","section":"201","A":"18","B":"7","C":"1","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"TYAGI A","year":"2019","semester":"SPRING","gpa":"3.65384615384615"},{"dept":"CSCE","number":"312","section":"207","A":"6","B":"1","C":"1","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"KIM E","year":"2019","semester":"SPRING","gpa":"3.625"},{"dept":"CSCE","number":"312","section":"501","A":"6","B":"4","C":"1","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"1","X":"0","prof":"TYAGI A","year":"2019","semester":"SPRING","gpa":"3.45454545454545"},{"dept":"CSCE","number":"312","section":"502","A":"10","B":"13","C":"8","D":"0","F":"0","I":"1","S":"0","U":"0","Q":"1","X":"0","prof":"TYAGI A","year":"2019","semester":"SPRING","gpa":"3.06451612903226"},{"dept":"CSCE","number":"312","section":"503","A":"14","B":"8","C":"7","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"TYAGI A","year":"2019","semester":"SPRING","gpa":"3.24137931034483"},{"dept":"CSCE","number":"312","section":"504","A":"12","B":"6","C":"4","D":"2","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"TYAGI A","year":"2019","semester":"SPRING","gpa":"3.16666666666667"},{"dept":"CSCE","number":"312","section":"505","A":"13","B":"4","C":"5","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"TYAGI A","year":"2019","semester":"SPRING","gpa":"3.36363636363636"},{"dept":"CSCE","number":"312","section":"506","A":"12","B":"9","C":"1","D":"2","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"TYAGI A","year":"2019","semester":"SPRING","gpa":"3.29166666666667"},{"dept":"CSCE","number":"312","section":"507","A":"7","B":"6","C":"9","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"2","X":"0","prof":"KIM E","year":"2019","semester":"SPRING","gpa":"2.90909090909091"},{"dept":"CSCE","number":"312","section":"508","A":"0","B":"4","C":"2","D":"0","F":"1","I":"0","S":"0","U":"0","Q":"2","X":"0","prof":"KIM E","year":"2019","semester":"SPRING","gpa":"2.28571428571429"},{"dept":"CSCE","number":"312","section":"509","A":"2","B":"9","C":"2","D":"0","F":"1","I":"0","S":"0","U":"0","Q":"5","X":"0","prof":"KIM E","year":"2019","semester":"SPRING","gpa":"2.78571428571429"},{"dept":"CSCE","number":"312","section":"511","A":"14","B":"6","C":"3","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"TYAGI A","year":"2019","semester":"SPRING","gpa":"3.47826086956522"},{"dept":"CSCE","number":"312","section":"512","A":"4","B":"6","C":"3","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"5","X":"0","prof":"KIM E","year":"2019","semester":"SPRING","gpa":"3.07692307692308"},{"dept":"CSCE","number":"312","section":"701","A":"9","B":"8","C":"7","D":"1","F":"0","I":"1","S":"0","U":"0","Q":"1","X":"0","prof":"TYAGI A","year":"2019","semester":"SUMMER","gpa":"3"},{"dept":"CSCE","number":"312","section":"200","A":"7","B":"3","C":"1","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"KIM E","year":"2019","semester":"FALL","gpa":"3.54545454545455"},{"dept":"CSCE","number":"312","section":"501","A":"18","B":"5","C":"5","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"TYAGI A","year":"2019","semester":"FALL","gpa":"3.46428571428571"},{"dept":"CSCE","number":"312","section":"502","A":"21","B":"3","C":"5","D":"1","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"TYAGI A","year":"2019","semester":"FALL","gpa":"3.46666666666667"},{"dept":"CSCE","number":"312","section":"503","A":"20","B":"5","C":"3","D":"1","F":"0","I":"1","S":"0","U":"0","Q":"0","X":"0","prof":"TYAGI A","year":"2019","semester":"FALL","gpa":"3.51724137931034"},{"dept":"CSCE","number":"312","section":"505","A":"4","B":"6","C":"4","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"KIM E","year":"2019","semester":"FALL","gpa":"3"},{"dept":"CSCE","number":"312","section":"506","A":"12","B":"13","C":"3","D":"0","F":"1","I":"0","S":"0","U":"0","Q":"1","X":"0","prof":"KIM E","year":"2019","semester":"FALL","gpa":"3.20689655172414"},{"dept":"CSCE","number":"312","section":"201","A":"15","B":"6","C":"1","D":"0","F":"0","I":"1","S":"0","U":"0","Q":"2","X":"0","prof":"KIM E","year":"2020","semester":"SPRING","gpa":"3.63636363636364"},{"dept":"CSCE","number":"312","section":"500","A":"14","B":"6","C":"1","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"TYAGI A","year":"2020","semester":"SPRING","gpa":"3.61904761904762"},{"dept":"CSCE","number":"312","section":"501","A":"12","B":"7","C":"2","D":"1","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"TYAGI A","year":"2020","semester":"SPRING","gpa":"3.36363636363636"},{"dept":"CSCE","number":"312","section":"502","A":"25","B":"10","C":"0","D":"0","F":"0","I":"1","S":"0","U":"0","Q":"0","X":"0","prof":"TYAGI A","year":"2020","semester":"SPRING","gpa":"3.71428571428571"},{"dept":"CSCE","number":"312","section":"503","A":"8","B":"6","C":"1","D":"2","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"TYAGI A","year":"2020","semester":"SPRING","gpa":"3.17647058823529"},{"dept":"CSCE","number":"312","section":"504","A":"10","B":"10","C":"0","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"MUZAHID A","year":"2020","semester":"SPRING","gpa":"3.5"},{"dept":"CSCE","number":"312","section":"505","A":"6","B":"12","C":"6","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"MUZAHID A","year":"2020","semester":"SPRING","gpa":"3"},{"dept":"CSCE","number":"312","section":"506","A":"7","B":"10","C":"5","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"KIM E","year":"2020","semester":"SPRING","gpa":"3.09090909090909"},{"dept":"CSCE","number":"312","section":"507","A":"3","B":"7","C":"5","D":"1","F":"1","I":"1","S":"0","U":"0","Q":"0","X":"0","prof":"KIM E","year":"2020","semester":"SPRING","gpa":"2.58823529411765"},{"dept":"CSCE","number":"312","section":"508","A":"4","B":"11","C":"3","D":"1","F":"3","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"HOUNGNINOU D","year":"2020","semester":"SPRING","gpa":"2.54545454545455"},{"dept":"CSCE","number":"312","section":"509","A":"12","B":"8","C":"2","D":"2","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"HOUNGNINOU D","year":"2020","semester":"SPRING","gpa":"3.25"},{"dept":"CSCE","number":"312","section":"510","A":"11","B":"9","C":"4","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"HOUNGNINOU D","year":"2020","semester":"SPRING","gpa":"3.29166666666667"},{"dept":"CSCE","number":"312","section":"511","A":"10","B":"9","C":"4","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"HOUNGNINOU D","year":"2020","semester":"SPRING","gpa":"3.26086956521739"},{"dept":"CSCE","number":"312","section":"299","A":"39","B":"11","C":"4","D":"1","F":"0","I":"1","S":"0","U":"0","Q":"2","X":"0","prof":"TYAGI A","year":"2020","semester":"SUMMER","gpa":"3.6"},{"dept":"CSCE","number":"312","section":"501","A":"6","B":"6","C":"2","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"1","X":"0","prof":"DASS J","year":"2020","semester":"FALL","gpa":"3.28571428571429"},{"dept":"CSCE","number":"312","section":"502","A":"6","B":"4","C":"0","D":"0","F":"2","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"DASS J","year":"2020","semester":"FALL","gpa":"3"},{"dept":"CSCE","number":"312","section":"503","A":"2","B":"5","C":"1","D":"1","F":"1","I":"0","S":"0","U":"0","Q":"1","X":"0","prof":"DASS J","year":"2020","semester":"FALL","gpa":"2.6"},{"dept":"CSCE","number":"312","section":"504","A":"1","B":"2","C":"2","D":"1","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"DASS J","year":"2020","semester":"FALL","gpa":"2.5"},{"dept":"CSCE","number":"312","section":"594","A":"15","B":"2","C":"1","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"1","X":"0","prof":"TYAGI A","year":"2020","semester":"FALL","gpa":"3.77777777777778"},{"dept":"CSCE","number":"312","section":"595","A":"11","B":"4","C":"1","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"TYAGI A","year":"2020","semester":"FALL","gpa":"3.625"},{"dept":"CSCE","number":"312","section":"596","A":"10","B":"5","C":"3","D":"0","F":"1","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"TYAGI A","year":"2020","semester":"FALL","gpa":"3.21052631578947"},{"dept":"CSCE","number":"312","section":"597","A":"9","B":"6","C":"2","D":"0","F":"0","I":"1","S":"0","U":"0","Q":"1","X":"0","prof":"TYAGI A","year":"2020","semester":"FALL","gpa":"3.41176470588235"},{"dept":"CSCE","number":"312","section":"598","A":"9","B":"8","C":"2","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"TYAGI A","year":"2020","semester":"FALL","gpa":"3.36842105263158"},{"dept":"CSCE","number":"312","section":"599","A":"13","B":"3","C":"3","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"TYAGI A","year":"2020","semester":"FALL","gpa":"3.52631578947368"},{"dept":"CSCE","number":"312","section":"200","A":"16","B":"0","C":"1","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"TYAGI A","year":"2021","semester":"SPRING","gpa":"3.88235294117647"},{"dept":"CSCE","number":"312","section":"500","A":"16","B":"10","C":"3","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"1","X":"0","prof":"TYAGI A","year":"2021","semester":"SPRING","gpa":"3.44827586206897"},{"dept":"CSCE","number":"312","section":"501","A":"17","B":"11","C":"2","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"TYAGI A","year":"2021","semester":"SPRING","gpa":"3.5"},{"dept":"CSCE","number":"312","section":"502","A":"16","B":"7","C":"3","D":"0","F":"0","I":"1","S":"0","U":"0","Q":"3","X":"0","prof":"TYAGI A","year":"2021","semester":"SPRING","gpa":"3.5"},{"dept":"CSCE","number":"312","section":"503","A":"17","B":"7","C":"4","D":"1","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"TYAGI A","year":"2021","semester":"SPRING","gpa":"3.37931034482759"},{"dept":"CSCE","number":"312","section":"504","A":"9","B":"2","C":"1","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"1","X":"0","prof":"KIM E","year":"2021","semester":"SPRING","gpa":"3.66666666666667"},{"dept":"CSCE","number":"312","section":"505","A":"8","B":"8","C":"0","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"1","X":"0","prof":"KIM E","year":"2021","semester":"SPRING","gpa":"3.5"},{"dept":"CSCE","number":"312","section":"506","A":"13","B":"2","C":"2","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"TYAGI A","year":"2021","semester":"SPRING","gpa":"3.64705882352941"},{"dept":"CSCE","number":"312","section":"507","A":"15","B":"11","C":"1","D":"0","F":"1","I":"0","S":"0","U":"0","Q":"2","X":"0","prof":"TYAGI A","year":"2021","semester":"SPRING","gpa":"3.39285714285714"},{"dept":"CSCE","number":"312","section":"508","A":"17","B":"4","C":"4","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"4","X":"0","prof":"TYAGI A","year":"2021","semester":"SPRING","gpa":"3.52"},{"dept":"CSCE","number":"312","section":"509","A":"9","B":"6","C":"4","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"2","X":"0","prof":"TYAGI A","year":"2021","semester":"SPRING","gpa":"3.26315789473684"},{"dept":"CSCE","number":"312","section":"510","A":"16","B":"7","C":"2","D":"2","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"TYAGI A","year":"2021","semester":"SPRING","gpa":"3.37037037037037"},{"dept":"CSCE","number":"312","section":"511","A":"12","B":"8","C":"4","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"4","X":"0","prof":"TYAGI A","year":"2021","semester":"SPRING","gpa":"3.33333333333333"},{"dept":"CSCE","number":"312","section":"512","A":"15","B":"6","C":"5","D":"0","F":"0","I":"1","S":"0","U":"0","Q":"1","X":"0","prof":"TYAGI A","year":"2021","semester":"SPRING","gpa":"3.38461538461538"},{"dept":"CSCE","number":"312","section":"513","A":"14","B":"6","C":"3","D":"2","F":"1","I":"0","S":"0","U":"0","Q":"2","X":"0","prof":"TYAGI A","year":"2021","semester":"SPRING","gpa":"3.15384615384615"},{"dept":"CSCE","number":"312","section":"200","A":"12","B":"8","C":"3","D":"0","F":"3","I":"1","S":"0","U":"0","Q":"0","X":"0","prof":"TYAGI A","year":"2021","semester":"SUMMER","gpa":"3"},{"dept":"CSCE","number":"312","section":"201","A":"9","B":"7","C":"4","D":"2","F":"0","I":"0","S":"0","U":"0","Q":"1","X":"0","prof":"TYAGI A","year":"2021","semester":"SUMMER","gpa":"3.04545454545455"},{"dept":"CSCE","number":"312","section":"501","A":"24","B":"3","C":"2","D":"0","F":"1","I":"0","S":"0","U":"0","Q":"2","X":"0","prof":"JIMENEZ D","year":"2021","semester":"FALL","gpa":"3.63333333333333"},{"dept":"CSCE","number":"312","section":"502","A":"23","B":"0","C":"3","D":"1","F":"1","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"JIMENEZ D","year":"2021","semester":"FALL","gpa":"3.53571428571429"},{"dept":"CSCE","number":"312","section":"503","A":"10","B":"2","C":"0","D":"1","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"JIMENEZ D","year":"2021","semester":"FALL","gpa":"3.61538461538462"},{"dept":"CSCE","number":"312","section":"504","A":"6","B":"9","C":"5","D":"0","F":"1","I":"1","S":"0","U":"0","Q":"2","X":"0","prof":"HOUNGNINOU D","year":"2021","semester":"FALL","gpa":"2.9047619047619"},{"dept":"CSCE","number":"312","section":"505","A":"10","B":"9","C":"3","D":"0","F":"1","I":"0","S":"0","U":"0","Q":"1","X":"0","prof":"HOUNGNINOU D","year":"2021","semester":"FALL","gpa":"3.17391304347826"},{"dept":"CSCE","number":"312","section":"506","A":"10","B":"9","C":"2","D":"1","F":"1","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"HOUNGNINOU D","year":"2021","semester":"FALL","gpa":"3.1304347826087"},{"dept":"CSCE","number":"312","section":"507","A":"15","B":"5","C":"3","D":"0","F":"1","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"HOUNGNINOU D","year":"2021","semester":"FALL","gpa":"3.375"},{"dept":"CSCE","number":"312","section":"201","A":"9","B":"2","C":"1","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"KIM E","year":"2022","semester":"SPRING","gpa":"3.66666666666667"},{"dept":"CSCE","number":"312","section":"500","A":"11","B":"4","C":"7","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"KIM E","year":"2022","semester":"SPRING","gpa":"3.18181818181818"},{"dept":"CSCE","number":"312","section":"501","A":"7","B":"3","C":"0","D":"0","F":"1","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"KIM E","year":"2022","semester":"SPRING","gpa":"3.36363636363636"},{"dept":"CSCE","number":"312","section":"502","A":"10","B":"7","C":"3","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"1","X":"0","prof":"KIM E","year":"2022","semester":"SPRING","gpa":"3.35"},{"dept":"CSCE","number":"312","section":"503","A":"10","B":"4","C":"1","D":"0","F":"1","I":"0","S":"0","U":"0","Q":"3","X":"0","prof":"KIM E","year":"2022","semester":"SPRING","gpa":"3.375"},{"dept":"CSCE","number":"312","section":"504","A":"8","B":"9","C":"2","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"JIMENEZ D","year":"2022","semester":"SPRING","gpa":"3.31578947368421"},{"dept":"CSCE","number":"312","section":"505","A":"7","B":"1","C":"5","D":"2","F":"1","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"JIMENEZ D","year":"2022","semester":"SPRING","gpa":"2.6875"},{"dept":"CSCE","number":"312","section":"506","A":"18","B":"3","C":"0","D":"1","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"JIMENEZ D","year":"2022","semester":"SPRING","gpa":"3.72727272727273"},{"dept":"CSCE","number":"312","section":"507","A":"19","B":"3","C":"0","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"JIMENEZ D","year":"2022","semester":"SPRING","gpa":"3.86363636363636"},{"dept":"CSCE","number":"312","section":"508","A":"14","B":"6","C":"1","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"JIMENEZ D","year":"2022","semester":"SPRING","gpa":"3.61904761904762"},{"dept":"CSCE","number":"312","section":"509","A":"10","B":"9","C":"1","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"JIMENEZ D","year":"2022","semester":"SPRING","gpa":"3.45"},{"dept":"CSCE","number":"312","section":"510","A":"7","B":"12","C":"1","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"JIMENEZ D","year":"2022","semester":"SPRING","gpa":"3.3"},{"dept":"CSCE","number":"312","section":"511","A":"5","B":"3","C":"0","D":"1","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"JIMENEZ D","year":"2022","semester":"SPRING","gpa":"3.33333333333333"},{"dept":"CSCE","number":"312","section":"595","A":"18","B":"5","C":"1","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"TYAGI A","year":"2022","semester":"SPRING","gpa":"3.70833333333333"},{"dept":"CSCE","number":"312","section":"596","A":"18","B":"5","C":"1","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"TYAGI A","year":"2022","semester":"SPRING","gpa":"3.70833333333333"},{"dept":"CSCE","number":"312","section":"597","A":"7","B":"11","C":"2","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"3","X":"0","prof":"TYAGI A","year":"2022","semester":"SPRING","gpa":"3.25"},{"dept":"CSCE","number":"312","section":"598","A":"14","B":"9","C":"0","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"1","X":"0","prof":"TYAGI A","year":"2022","semester":"SPRING","gpa":"3.60869565217391"},{"dept":"CSCE","number":"312","section":"599","A":"15","B":"12","C":"1","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"2","X":"0","prof":"TYAGI A","year":"2022","semester":"SPRING","gpa":"3.5"},{"dept":"CSCE","number":"312","section":"398","A":"8","B":"9","C":"5","D":"1","F":"1","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"TYAGI A","year":"2022","semester":"SUMMER","gpa":"2.91666666666667"},{"dept":"CSCE","number":"312","section":"399","A":"7","B":"2","C":"0","D":"2","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"TYAGI A","year":"2022","semester":"SUMMER","gpa":"3.27272727272727"},{"dept":"CSCE","number":"312","section":"203","A":"10","B":"5","C":"0","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"KIM E","year":"2022","semester":"FALL","gpa":"3.66666666666667"},{"dept":"CSCE","number":"312","section":"500","A":"9","B":"6","C":"6","D":"1","F":"1","I":"0","S":"0","U":"0","Q":"2","X":"0","prof":"MUZAHID A","year":"2022","semester":"FALL","gpa":"2.91304347826087"},{"dept":"CSCE","number":"312","section":"501","A":"11","B":"9","C":"3","D":"0","F":"3","I":"0","S":"0","U":"0","Q":"2","X":"0","prof":"MUZAHID A","year":"2022","semester":"FALL","gpa":"2.96153846153846"},{"dept":"CSCE","number":"312","section":"502","A":"5","B":"4","C":"2","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"3","X":"0","prof":"MUZAHID A","year":"2022","semester":"FALL","gpa":"3.27272727272727"},{"dept":"CSCE","number":"312","section":"503","A":"7","B":"6","C":"3","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"2","X":"0","prof":"KIM E","year":"2022","semester":"FALL","gpa":"3.25"},{"dept":"CSCE","number":"312","section":"504","A":"12","B":"13","C":"3","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"2","X":"0","prof":"KIM E","year":"2022","semester":"FALL","gpa":"3.32142857142857"},{"dept":"CSCE","number":"312","section":"505","A":"15","B":"8","C":"4","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"2","X":"0","prof":"KIM E","year":"2022","semester":"FALL","gpa":"3.40740740740741"},{"dept":"CSCE","number":"312","section":"200","A":"15","B":"2","C":"0","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"KIM E","year":"2023","semester":"SPRING","gpa":"3.88235294117647"},{"dept":"CSCE","number":"312","section":"299","A":"17","B":"2","C":"0","D":"0","F":"0","I":"1","S":"0","U":"0","Q":"0","X":"0","prof":"TYAGI A","year":"2023","semester":"SPRING","gpa":"3.89473684210526"},{"dept":"CSCE","number":"312","section":"500","A":"3","B":"4","C":"0","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"KIM E","year":"2023","semester":"SPRING","gpa":"3.42857142857143"},{"dept":"CSCE","number":"312","section":"501","A":"13","B":"9","C":"2","D":"0","F":"1","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"KIM E","year":"2023","semester":"SPRING","gpa":"3.32"},{"dept":"CSCE","number":"312","section":"502","A":"7","B":"9","C":"6","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"2","X":"0","prof":"KIM E","year":"2023","semester":"SPRING","gpa":"3.04545454545455"},{"dept":"CSCE","number":"312","section":"503","A":"9","B":"10","C":"2","D":"2","F":"0","I":"1","S":"0","U":"0","Q":"0","X":"0","prof":"KIM E","year":"2023","semester":"SPRING","gpa":"3.1304347826087"},{"dept":"CSCE","number":"312","section":"504","A":"7","B":"11","C":"4","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"2","X":"0","prof":"MAHAPATRA R","year":"2023","semester":"SPRING","gpa":"3.13636363636364"},{"dept":"CSCE","number":"312","section":"505","A":"8","B":"11","C":"2","D":"1","F":"1","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"MAHAPATRA R","year":"2023","semester":"SPRING","gpa":"3.04347826086957"},{"dept":"CSCE","number":"312","section":"506","A":"3","B":"7","C":"6","D":"2","F":"1","I":"0","S":"0","U":"0","Q":"3","X":"0","prof":"MAHAPATRA R","year":"2023","semester":"SPRING","gpa":"2.47368421052632"},{"dept":"CSCE","number":"312","section":"507","A":"6","B":"8","C":"4","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"1","X":"0","prof":"MAHAPATRA R","year":"2023","semester":"SPRING","gpa":"3.11111111111111"},{"dept":"CSCE","number":"312","section":"551","A":"10","B":"3","C":"0","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"DUYSAK A","year":"2023","semester":"SPRING","gpa":"3.76923076923077"},{"dept":"CSCE","number":"312","section":"594","A":"10","B":"2","C":"0","D":"1","F":"0","I":"0","S":"0","U":"0","Q":"1","X":"0","prof":"TYAGI A","year":"2023","semester":"SPRING","gpa":"3.61538461538462"},{"dept":"CSCE","number":"312","section":"595","A":"29","B":"4","C":"0","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"TYAGI A","year":"2023","semester":"SPRING","gpa":"3.87878787878788"},{"dept":"CSCE","number":"312","section":"596","A":"28","B":"3","C":"1","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"1","X":"0","prof":"TYAGI A","year":"2023","semester":"SPRING","gpa":"3.84375"},{"dept":"CSCE","number":"312","section":"597","A":"25","B":"3","C":"3","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"TYAGI A","year":"2023","semester":"SPRING","gpa":"3.70967741935484"},{"dept":"CSCE","number":"312","section":"598","A":"26","B":"3","C":"1","D":"0","F":"0","I":"1","S":"0","U":"0","Q":"2","X":"0","prof":"TYAGI A","year":"2023","semester":"SPRING","gpa":"3.83333333333333"},{"dept":"CSCE","number":"312","section":"599","A":"28","B":"5","C":"0","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"TYAGI A","year":"2023","semester":"SPRING","gpa":"3.84848484848485"},{"dept":"CSCE","number":"312","section":"700","A":"19","B":"14","C":"2","D":"4","F":"1","I":"1","S":"0","U":"0","Q":"1","X":"0","prof":"TYAGI A","year":"2023","semester":"SUMMER","gpa":"3.15"},{"dept":"CSCE","number":"312","section":"200","A":"16","B":"3","C":"0","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"TYAGI A","year":"2023","semester":"FALL","gpa":"3.84210526315789"},{"dept":"CSCE","number":"312","section":"500","A":"11","B":"2","C":"1","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"TYAGI A","year":"2023","semester":"FALL","gpa":"3.71428571428571"},{"dept":"CSCE","number":"312","section":"501","A":"26","B":"6","C":"0","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"TYAGI A","year":"2023","semester":"FALL","gpa":"3.8125"},{"dept":"CSCE","number":"312","section":"502","A":"25","B":"4","C":"0","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"1","X":"0","prof":"TYAGI A","year":"2023","semester":"FALL","gpa":"3.86206896551724"},{"dept":"CSCE","number":"312","section":"503","A":"14","B":"10","C":"6","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"1","X":"0","prof":"JIMENEZ D","year":"2023","semester":"FALL","gpa":"3.26666666666667"},{"dept":"CSCE","number":"312","section":"504","A":"15","B":"3","C":"5","D":"0","F":"2","I":"0","S":"0","U":"0","Q":"1","X":"0","prof":"JIMENEZ D","year":"2023","semester":"FALL","gpa":"3.16"},{"dept":"CSCE","number":"312","section":"505","A":"9","B":"6","C":"3","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"JIMENEZ D","year":"2023","semester":"FALL","gpa":"3.33333333333333"},{"dept":"CSCE","number":"312","section":"550","A":"6","B":"0","C":"0","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"DUYSAK A","year":"2023","semester":"FALL","gpa":"4"},{"dept":"CSCE","number":"312","section":"200","A":"28","B":"0","C":"0","D":"0","F":"1","I":"0","S":"0","U":"0","Q":"1","X":"0","prof":"KIM E","year":"2024","semester":"SPRING","gpa":"3.86206896551724"},{"dept":"CSCE","number":"312","section":"212","A":"8","B":"1","C":"0","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"KIM E","year":"2024","semester":"SPRING","gpa":"3.88888888888889"},{"dept":"CSCE","number":"312","section":"500","A":"17","B":"3","C":"1","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"1","X":"0","prof":"KIM E","year":"2024","semester":"SPRING","gpa":"3.76190476190476"},{"dept":"CSCE","number":"312","section":"501","A":"14","B":"8","C":"1","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"KIM E","year":"2024","semester":"SPRING","gpa":"3.56521739130435"},{"dept":"CSCE","number":"312","section":"502","A":"16","B":"2","C":"0","D":"1","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"KIM E","year":"2024","semester":"SPRING","gpa":"3.73684210526316"},{"dept":"CSCE","number":"312","section":"503","A":"14","B":"8","C":"0","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"KIM E","year":"2024","semester":"SPRING","gpa":"3.63636363636364"},{"dept":"CSCE","number":"312","section":"504","A":"6","B":"17","C":"0","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"MAHAPATRA R","year":"2024","semester":"SPRING","gpa":"3.26086956521739"},{"dept":"CSCE","number":"312","section":"505","A":"5","B":"11","C":"4","D":"0","F":"2","I":"0","S":"0","U":"0","Q":"2","X":"0","prof":"MAHAPATRA R","year":"2024","semester":"SPRING","gpa":"2.77272727272727"},{"dept":"CSCE","number":"312","section":"506","A":"10","B":"9","C":"3","D":"0","F":"1","I":"0","S":"0","U":"0","Q":"1","X":"0","prof":"MAHAPATRA R","year":"2024","semester":"SPRING","gpa":"3.17391304347826"},{"dept":"CSCE","number":"312","section":"507","A":"4","B":"12","C":"3","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"1","X":"0","prof":"MAHAPATRA R","year":"2024","semester":"SPRING","gpa":"3.05263157894737"},{"dept":"CSCE","number":"312","section":"508","A":"18","B":"4","C":"0","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"JIMENEZ D","year":"2024","semester":"SPRING","gpa":"3.81818181818182"},{"dept":"CSCE","number":"312","section":"509","A":"20","B":"2","C":"2","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"JIMENEZ D","year":"2024","semester":"SPRING","gpa":"3.75"},{"dept":"CSCE","number":"312","section":"510","A":"21","B":"3","C":"0","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"JIMENEZ D","year":"2024","semester":"SPRING","gpa":"3.875"},{"dept":"CSCE","number":"312","section":"511","A":"21","B":"3","C":"0","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"JIMENEZ D","year":"2024","semester":"SPRING","gpa":"3.875"},{"dept":"CSCE","number":"312","section":"512","A":"17","B":"7","C":"0","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"MUZAHID A","year":"2024","semester":"SPRING","gpa":"3.70833333333333"},{"dept":"CSCE","number":"312","section":"513","A":"11","B":"9","C":"0","D":"1","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"MUZAHID A","year":"2024","semester":"SPRING","gpa":"3.42857142857143"},{"dept":"CSCE","number":"312","section":"514","A":"6","B":"5","C":"0","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"MUZAHID A","year":"2024","semester":"SPRING","gpa":"3.54545454545455"},{"dept":"CSCE","number":"312","section":"515","A":"7","B":"2","C":"2","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"1","X":"0","prof":"MUZAHID A","year":"2024","semester":"SPRING","gpa":"3.45454545454545"},{"dept":"CSCE","number":"312","section":"551","A":"11","B":"3","C":"0","D":"0","F":"0","I":"0","S":"0","U":"0","Q":"0","X":"0","prof":"DUYSAK A","year":"2024","semester":"SPRING","gpa":"3.78571428571429"}]}
+
+CSCE 312 None
+API returned 203 sections for CSCE 312
+Sample section data (first 3 entries):
+  1. {'dept': 'CSCE', 'number': '312', 'section': '501', 'A': '3', 'B': '8', 'C': '7', 'D': '1', 'F': '0', 'I': '0', 'S': '0', 'U': '0', 'Q': '0', 'X': '0', 'prof': 'MAHAPATRA R', 'year': '2012', 'semester': 'SPRING', 'gpa': '2.6842105263157894'}
+  2. {'dept': 'CSCE', 'number': '312', 'section': '502', 'A': '8', 'B': '8', 'C': '1', 'D': '0', 'F': '1', 'I': '0', 'S': '0', 'U': '0', 'Q': '1', 'X': '0', 'prof': 'MAHAPATRA R', 'year': '2012', 'semester': 'SPRING', 'gpa': '3.2222222222222223'}
+  3. {'dept': 'CSCE', 'number': '312', 'section': '503', 'A': '2', 'B': '6', 'C': '4', 'D': '2', 'F': '2', 'I': '0', 'S': '0', 'U': '0', 'Q': '1', 'X': '0', 'prof': 'MAHAPATRA R', 'year': '2012', 'semester': 'SPRING', 'gpa': '2.25'}
+501
+Section: '501' => Clean: '501' => Honors: False
+Section is too old.
+502
+Section: '502' => Clean: '502' => Honors: False
+Section is too old.
+503
+Section: '503' => Clean: '503' => Honors: False
+Section is too old.
+501
+Section: '501' => Clean: '501' => Honors: False
+Section is too old.
+502
+Section: '502' => Clean: '502' => Honors: False
+Section is too old.
+503
+Section: '503' => Clean: '503' => Honors: False
+Section is too old.
+501
+Section: '501' => Clean: '501' => Honors: False
+Section is too old.
+502
+Section: '502' => Clean: '502' => Honors: False
+Section is too old.
+501
+Section: '501' => Clean: '501' => Honors: False
+Section is too old.
+502
+Section: '502' => Clean: '502' => Honors: False
+Section is too old.
+503
+Section: '503' => Clean: '503' => Honors: False
+Section is too old.
+501
+Section: '501' => Clean: '501' => Honors: False
+Section is too old.
+502
+Section: '502' => Clean: '502' => Honors: False
+Section is too old.
+100
+Section: '100' => Clean: '100' => Honors: False
+Section is too old.
+501
+Section: '501' => Clean: '501' => Honors: False
+Section is too old.
+502
+Section: '502' => Clean: '502' => Honors: False
+Section is too old.
+503
+Section: '503' => Clean: '503' => Honors: False
+Section is too old.
+504
+Section: '504' => Clean: '504' => Honors: False
+Section is too old.
+501
+Section: '501' => Clean: '501' => Honors: False
+Section is too old.
+502
+Section: '502' => Clean: '502' => Honors: False
+Section is too old.
+503
+Section: '503' => Clean: '503' => Honors: False
+Section is too old.
+200
+Section: '200' => Clean: '200' => Honors: True
+Section is too old.
+501
+Section: '501' => Clean: '501' => Honors: False
+Section is too old.
+502
+Section: '502' => Clean: '502' => Honors: False
+Section is too old.
+503
+Section: '503' => Clean: '503' => Honors: False
+Section is too old.
+504
+Section: '504' => Clean: '504' => Honors: False
+Section is too old.
+505
+Section: '505' => Clean: '505' => Honors: False
+Section is too old.
+501
+Section: '501' => Clean: '501' => Honors: False
+Section is too old.
+502
+Section: '502' => Clean: '502' => Honors: False
+Section is too old.
+503
+Section: '503' => Clean: '503' => Honors: False
+Section is too old.
+301
+Section: '301' => Clean: '301' => Honors: False
+Section is too old.
+200
+Section: '200' => Clean: '200' => Honors: True
+Section is too old.
+501
+Section: '501' => Clean: '501' => Honors: False
+Section is too old.
+502
+Section: '502' => Clean: '502' => Honors: False
+Section is too old.
+503
+Section: '503' => Clean: '503' => Honors: False
+Section is too old.
+504
+Section: '504' => Clean: '504' => Honors: False
+Section is too old.
+505
+Section: '505' => Clean: '505' => Honors: False
+Section is too old.
+506
+Section: '506' => Clean: '506' => Honors: False
+Section is too old.
+501
+Section: '501' => Clean: '501' => Honors: False
+Section is too old.
+502
+Section: '502' => Clean: '502' => Honors: False
+Section is too old.
+504
+Section: '504' => Clean: '504' => Honors: False
+Section is too old.
+506
+Section: '506' => Clean: '506' => Honors: False
+Section is too old.
+301
+Section: '301' => Clean: '301' => Honors: False
+Section is too old.
+200
+Section: '200' => Clean: '200' => Honors: True
+Section is too old.
+501
+Section: '501' => Clean: '501' => Honors: False
+Section is too old.
+502
+Section: '502' => Clean: '502' => Honors: False
+Section is too old.
+504
+Section: '504' => Clean: '504' => Honors: False
+Section is too old.
+505
+Section: '505' => Clean: '505' => Honors: False
+Section is too old.
+200
+Section: '200' => Clean: '200' => Honors: True
+Section is too old.
+201
+Section: '201' => Clean: '201' => Honors: True
+Section is too old.
+501
+Section: '501' => Clean: '501' => Honors: False
+Section is too old.
+502
+Section: '502' => Clean: '502' => Honors: False
+Section is too old.
+503
+Section: '503' => Clean: '503' => Honors: False
+Section is too old.
+504
+Section: '504' => Clean: '504' => Honors: False
+Section is too old.
+505
+Section: '505' => Clean: '505' => Honors: False
+Section is too old.
+506
+Section: '506' => Clean: '506' => Honors: False
+Section is too old.
+507
+Section: '507' => Clean: '507' => Honors: False
+Section is too old.
+200
+Section: '200' => Clean: '200' => Honors: True
+Section is too old.
+200
+Section: '200' => Clean: '200' => Honors: True
+Section is too old.
+501
+Section: '501' => Clean: '501' => Honors: False
+Section is too old.
+502
+Section: '502' => Clean: '502' => Honors: False
+Section is too old.
+504
+Section: '504' => Clean: '504' => Honors: False
+Section is too old.
+505
+Section: '505' => Clean: '505' => Honors: False
+Section is too old.
+201
+Section: '201' => Clean: '201' => Honors: True
+Section is too old.
+207
+Section: '207' => Clean: '207' => Honors: True
+Section is too old.
+501
+Section: '501' => Clean: '501' => Honors: False
+Section is too old.
+502
+Section: '502' => Clean: '502' => Honors: False
+Section is too old.
+503
+Section: '503' => Clean: '503' => Honors: False
+Section is too old.
+504
+Section: '504' => Clean: '504' => Honors: False
+Section is too old.
+505
+Section: '505' => Clean: '505' => Honors: False
+Section is too old.
+506
+Section: '506' => Clean: '506' => Honors: False
+Section is too old.
+507
+Section: '507' => Clean: '507' => Honors: False
+Section is too old.
+508
+Section: '508' => Clean: '508' => Honors: False
+Section is too old.
+509
+Section: '509' => Clean: '509' => Honors: False
+Section is too old.
+511
+Section: '511' => Clean: '511' => Honors: False
+Section is too old.
+512
+Section: '512' => Clean: '512' => Honors: False
+Section is too old.
+701
+Section: '701' => Clean: '701' => Honors: False
+Section is too old.
+200
+Section: '200' => Clean: '200' => Honors: True
+Section is too old.
+501
+Section: '501' => Clean: '501' => Honors: False
+Section is too old.
+502
+Section: '502' => Clean: '502' => Honors: False
+Section is too old.
+503
+Section: '503' => Clean: '503' => Honors: False
+Section is too old.
+505
+Section: '505' => Clean: '505' => Honors: False
+Section is too old.
+506
+Section: '506' => Clean: '506' => Honors: False
+Section is too old.
+201
+Section: '201' => Clean: '201' => Honors: True
+Section is too old.
+500
+Section: '500' => Clean: '500' => Honors: False
+Section is too old.
+501
+Section: '501' => Clean: '501' => Honors: False
+Section is too old.
+502
+Section: '502' => Clean: '502' => Honors: False
+Section is too old.
+503
+Section: '503' => Clean: '503' => Honors: False
+Section is too old.
+504
+Section: '504' => Clean: '504' => Honors: False
+Section is too old.
+505
+Section: '505' => Clean: '505' => Honors: False
+Section is too old.
+506
+Section: '506' => Clean: '506' => Honors: False
+Section is too old.
+507
+Section: '507' => Clean: '507' => Honors: False
+Section is too old.
+508
+Section: '508' => Clean: '508' => Honors: False
+Section is too old.
+509
+Section: '509' => Clean: '509' => Honors: False
+Section is too old.
+510
+Section: '510' => Clean: '510' => Honors: False
+Section is too old.
+511
+Section: '511' => Clean: '511' => Honors: False
+Section is too old.
+299
+Section: '299' => Clean: '299' => Honors: True
+Section is too old.
+501
+Section: '501' => Clean: '501' => Honors: False
+Section is too old.
+502
+Section: '502' => Clean: '502' => Honors: False
+Section is too old.
+503
+Section: '503' => Clean: '503' => Honors: False
+Section is too old.
+504
+Section: '504' => Clean: '504' => Honors: False
+Section is too old.
+594
+Section: '594' => Clean: '594' => Honors: False
+Section is too old.
+595
+Section: '595' => Clean: '595' => Honors: False
+Section is too old.
+596
+Section: '596' => Clean: '596' => Honors: False
+Section is too old.
+597
+Section: '597' => Clean: '597' => Honors: False
+Section is too old.
+598
+Section: '598' => Clean: '598' => Honors: False
+Section is too old.
+599
+Section: '599' => Clean: '599' => Honors: False
+Section is too old.
+200
+Section: '200' => Clean: '200' => Honors: True
+  Added to 'TYAGI A' HONORS: 3.88235294117647
+Section is too old.
+500
+Section: '500' => Clean: '500' => Honors: False
+  Added to 'TYAGI A' REGULAR: 3.44827586206897
+Section is too old.
+501
+Section: '501' => Clean: '501' => Honors: False
+  Added to 'TYAGI A' REGULAR: 3.5
+Section is too old.
+502
+Section: '502' => Clean: '502' => Honors: False
+  Added to 'TYAGI A' REGULAR: 3.5
+Section is too old.
+503
+Section: '503' => Clean: '503' => Honors: False
+  Added to 'TYAGI A' REGULAR: 3.37931034482759
+Section is too old.
+504
+Section: '504' => Clean: '504' => Honors: False
+  Added to 'KIM E' REGULAR: 3.66666666666667
+Section is too old.
+505
+Section: '505' => Clean: '505' => Honors: False
+  Added to 'KIM E' REGULAR: 3.5
+Section is too old.
+506
+Section: '506' => Clean: '506' => Honors: False
+  Added to 'TYAGI A' REGULAR: 3.64705882352941
+Section is too old.
+507
+Section: '507' => Clean: '507' => Honors: False
+  Added to 'TYAGI A' REGULAR: 3.39285714285714
+Section is too old.
+508
+Section: '508' => Clean: '508' => Honors: False
+  Added to 'TYAGI A' REGULAR: 3.52
+Section is too old.
+509
+Section: '509' => Clean: '509' => Honors: False
+  Added to 'TYAGI A' REGULAR: 3.26315789473684
+Section is too old.
+510
+Section: '510' => Clean: '510' => Honors: False
+  Added to 'TYAGI A' REGULAR: 3.37037037037037
+Section is too old.
+511
+Section: '511' => Clean: '511' => Honors: False
+  Added to 'TYAGI A' REGULAR: 3.33333333333333
+Section is too old.
+512
+Section: '512' => Clean: '512' => Honors: False
+  Added to 'TYAGI A' REGULAR: 3.38461538461538
+Section is too old.
+513
+Section: '513' => Clean: '513' => Honors: False
+  Added to 'TYAGI A' REGULAR: 3.15384615384615
+Section is too old.
+200
+Section: '200' => Clean: '200' => Honors: True
+  Added to 'TYAGI A' HONORS: 3.0
+Section is too old.
+201
+Section: '201' => Clean: '201' => Honors: True
+  Added to 'TYAGI A' HONORS: 3.04545454545455
+Section is too old.
+501
+Section: '501' => Clean: '501' => Honors: False
+  Added to 'JIMENEZ D' REGULAR: 3.63333333333333
+Section is too old.
+502
+Section: '502' => Clean: '502' => Honors: False
+  Added to 'JIMENEZ D' REGULAR: 3.53571428571429
+Section is too old.
+503
+Section: '503' => Clean: '503' => Honors: False
+  Added to 'JIMENEZ D' REGULAR: 3.61538461538462
+Section is too old.
+504
+Section: '504' => Clean: '504' => Honors: False
+  Added to 'HOUNGNINOU D' REGULAR: 2.9047619047619
+Section is too old.
+505
+Section: '505' => Clean: '505' => Honors: False
+  Added to 'HOUNGNINOU D' REGULAR: 3.17391304347826
+Section is too old.
+506
+Section: '506' => Clean: '506' => Honors: False
+  Added to 'HOUNGNINOU D' REGULAR: 3.1304347826087
+Section is too old.
+507
+Section: '507' => Clean: '507' => Honors: False
+  Added to 'HOUNGNINOU D' REGULAR: 3.375
+Section is too old.
+201
+Section: '201' => Clean: '201' => Honors: True
+  Added to 'KIM E' HONORS: 3.66666666666667
+Section is too old.
+500
+Section: '500' => Clean: '500' => Honors: False
+  Added to 'KIM E' REGULAR: 3.18181818181818
+Section is too old.
+501
+Section: '501' => Clean: '501' => Honors: False
+  Added to 'KIM E' REGULAR: 3.36363636363636
+Section is too old.
+502
+Section: '502' => Clean: '502' => Honors: False
+  Added to 'KIM E' REGULAR: 3.35
+Section is too old.
+503
+Section: '503' => Clean: '503' => Honors: False
+  Added to 'KIM E' REGULAR: 3.375
+Section is too old.
+504
+Section: '504' => Clean: '504' => Honors: False
+  Added to 'JIMENEZ D' REGULAR: 3.31578947368421
+Section is too old.
+505
+Section: '505' => Clean: '505' => Honors: False
+  Added to 'JIMENEZ D' REGULAR: 2.6875
+Section is too old.
+506
+Section: '506' => Clean: '506' => Honors: False
+  Added to 'JIMENEZ D' REGULAR: 3.72727272727273
+Section is too old.
+507
+Section: '507' => Clean: '507' => Honors: False
+  Added to 'JIMENEZ D' REGULAR: 3.86363636363636
+Section is too old.
+508
+Section: '508' => Clean: '508' => Honors: False
+  Added to 'JIMENEZ D' REGULAR: 3.61904761904762
+Section is too old.
+509
+Section: '509' => Clean: '509' => Honors: False
+  Added to 'JIMENEZ D' REGULAR: 3.45
+Section is too old.
+510
+Section: '510' => Clean: '510' => Honors: False
+  Added to 'JIMENEZ D' REGULAR: 3.3
+Section is too old.
+511
+Section: '511' => Clean: '511' => Honors: False
+  Added to 'JIMENEZ D' REGULAR: 3.33333333333333
+Section is too old.
+595
+Section: '595' => Clean: '595' => Honors: False
+  Added to 'TYAGI A' REGULAR: 3.70833333333333
+Section is too old.
+596
+Section: '596' => Clean: '596' => Honors: False
+  Added to 'TYAGI A' REGULAR: 3.70833333333333
+Section is too old.
+597
+Section: '597' => Clean: '597' => Honors: False
+  Added to 'TYAGI A' REGULAR: 3.25
+Section is too old.
+598
+Section: '598' => Clean: '598' => Honors: False
+  Added to 'TYAGI A' REGULAR: 3.60869565217391
+Section is too old.
+599
+Section: '599' => Clean: '599' => Honors: False
+  Added to 'TYAGI A' REGULAR: 3.5
+Section is too old.
+398
+Section: '398' => Clean: '398' => Honors: False
+  Added to 'TYAGI A' REGULAR: 2.91666666666667
+Section is too old.
+399
+Section: '399' => Clean: '399' => Honors: False
+  Added to 'TYAGI A' REGULAR: 3.27272727272727
+Section is too old.
+203
+Section: '203' => Clean: '203' => Honors: True
+  Added to 'KIM E' HONORS: 3.66666666666667
+Section is too old.
+500
+Section: '500' => Clean: '500' => Honors: False
+  Added to 'MUZAHID A' REGULAR: 2.91304347826087
+Section is too old.
+501
+Section: '501' => Clean: '501' => Honors: False
+  Added to 'MUZAHID A' REGULAR: 2.96153846153846
+Section is too old.
+502
+Section: '502' => Clean: '502' => Honors: False
+  Added to 'MUZAHID A' REGULAR: 3.27272727272727
+Section is too old.
+503
+Section: '503' => Clean: '503' => Honors: False
+  Added to 'KIM E' REGULAR: 3.25
+Section is too old.
+504
+Section: '504' => Clean: '504' => Honors: False
+  Added to 'KIM E' REGULAR: 3.32142857142857
+Section is too old.
+505
+Section: '505' => Clean: '505' => Honors: False
+  Added to 'KIM E' REGULAR: 3.40740740740741
+Section is too old.
+200
+Section: '200' => Clean: '200' => Honors: True
+  Added to 'KIM E' HONORS: 3.88235294117647
+Section is too old.
+299
+Section: '299' => Clean: '299' => Honors: True
+  Added to 'TYAGI A' HONORS: 3.89473684210526
+Section is too old.
+500
+Section: '500' => Clean: '500' => Honors: False
+  Added to 'KIM E' REGULAR: 3.42857142857143
+Section is too old.
+501
+Section: '501' => Clean: '501' => Honors: False
+  Added to 'KIM E' REGULAR: 3.32
+Section is too old.
+502
+Section: '502' => Clean: '502' => Honors: False
+  Added to 'KIM E' REGULAR: 3.04545454545455
+Section is too old.
+503
+Section: '503' => Clean: '503' => Honors: False
+  Added to 'KIM E' REGULAR: 3.1304347826087
+Section is too old.
+504
+Section: '504' => Clean: '504' => Honors: False
+  Added to 'MAHAPATRA R' REGULAR: 3.13636363636364
+Section is too old.
+505
+Section: '505' => Clean: '505' => Honors: False
+  Added to 'MAHAPATRA R' REGULAR: 3.04347826086957
+Section is too old.
+506
+Section: '506' => Clean: '506' => Honors: False
+  Added to 'MAHAPATRA R' REGULAR: 2.47368421052632
+Section is too old.
+507
+Section: '507' => Clean: '507' => Honors: False
+  Added to 'MAHAPATRA R' REGULAR: 3.11111111111111
+Section is too old.
+551
+Section: '551' => Clean: '551' => Honors: False
+  Added to 'DUYSAK A' REGULAR: 3.76923076923077
+Section is too old.
+594
+Section: '594' => Clean: '594' => Honors: False
+  Added to 'TYAGI A' REGULAR: 3.61538461538462
+Section is too old.
+595
+Section: '595' => Clean: '595' => Honors: False
+  Added to 'TYAGI A' REGULAR: 3.87878787878788
+Section is too old.
+596
+Section: '596' => Clean: '596' => Honors: False
+  Added to 'TYAGI A' REGULAR: 3.84375
+Section is too old.
+597
+Section: '597' => Clean: '597' => Honors: False
+  Added to 'TYAGI A' REGULAR: 3.70967741935484
+Section is too old.
+598
+Section: '598' => Clean: '598' => Honors: False
+  Added to 'TYAGI A' REGULAR: 3.83333333333333
+Section is too old.
+599
+Section: '599' => Clean: '599' => Honors: False
+  Added to 'TYAGI A' REGULAR: 3.84848484848485
+Section is too old.
+700
+Section: '700' => Clean: '700' => Honors: False
+  Added to 'TYAGI A' REGULAR: 3.15
+Section is too old.
+200
+Section: '200' => Clean: '200' => Honors: True
+  Added to 'TYAGI A' HONORS: 3.84210526315789
+Section is too old.
+500
+Section: '500' => Clean: '500' => Honors: False
+  Added to 'TYAGI A' REGULAR: 3.71428571428571
+Section is too old.
+501
+Section: '501' => Clean: '501' => Honors: False
+  Added to 'TYAGI A' REGULAR: 3.8125
+Section is too old.
+502
+Section: '502' => Clean: '502' => Honors: False
+  Added to 'TYAGI A' REGULAR: 3.86206896551724
+Section is too old.
+503
+Section: '503' => Clean: '503' => Honors: False
+  Added to 'JIMENEZ D' REGULAR: 3.26666666666667
+Section is too old.
+504
+Section: '504' => Clean: '504' => Honors: False
+  Added to 'JIMENEZ D' REGULAR: 3.16
+Section is too old.
+505
+Section: '505' => Clean: '505' => Honors: False
+  Added to 'JIMENEZ D' REGULAR: 3.33333333333333
+Section is too old.
+550
+Section: '550' => Clean: '550' => Honors: False
+  Added to 'DUYSAK A' REGULAR: 4.0
+Section is too old.
+200
+Section: '200' => Clean: '200' => Honors: True
+  Added to 'KIM E' HONORS: 3.86206896551724
+Section is too old.
+212
+Section: '212' => Clean: '212' => Honors: True
+  Added to 'KIM E' HONORS: 3.88888888888889
+Section is too old.
+500
+Section: '500' => Clean: '500' => Honors: False
+  Added to 'KIM E' REGULAR: 3.76190476190476
+Section is too old.
+501
+Section: '501' => Clean: '501' => Honors: False
+  Added to 'KIM E' REGULAR: 3.56521739130435
+Section is too old.
+502
+Section: '502' => Clean: '502' => Honors: False
+  Added to 'KIM E' REGULAR: 3.73684210526316
+Section is too old.
+503
+Section: '503' => Clean: '503' => Honors: False
+  Added to 'KIM E' REGULAR: 3.63636363636364
+Section is too old.
+504
+Section: '504' => Clean: '504' => Honors: False
+  Added to 'MAHAPATRA R' REGULAR: 3.26086956521739
+Section is too old.
+505
+Section: '505' => Clean: '505' => Honors: False
+  Added to 'MAHAPATRA R' REGULAR: 2.77272727272727
+Section is too old.
+506
+Section: '506' => Clean: '506' => Honors: False
+  Added to 'MAHAPATRA R' REGULAR: 3.17391304347826
+Section is too old.
+507
+Section: '507' => Clean: '507' => Honors: False
+  Added to 'MAHAPATRA R' REGULAR: 3.05263157894737
+Section is too old.
+508
+Section: '508' => Clean: '508' => Honors: False
+  Added to 'JIMENEZ D' REGULAR: 3.81818181818182
+Section is too old.
+509
+Section: '509' => Clean: '509' => Honors: False
+  Added to 'JIMENEZ D' REGULAR: 3.75
+Section is too old.
+510
+Section: '510' => Clean: '510' => Honors: False
+  Added to 'JIMENEZ D' REGULAR: 3.875
+Section is too old.
+511
+Section: '511' => Clean: '511' => Honors: False
+  Added to 'JIMENEZ D' REGULAR: 3.875
+Section is too old.
+512
+Section: '512' => Clean: '512' => Honors: False
+  Added to 'MUZAHID A' REGULAR: 3.70833333333333
+Section is too old.
+513
+Section: '513' => Clean: '513' => Honors: False
+  Added to 'MUZAHID A' REGULAR: 3.42857142857143
+Section is too old.
+514
+Section: '514' => Clean: '514' => Honors: False
+  Added to 'MUZAHID A' REGULAR: 3.54545454545455
+Section is too old.
+515
+Section: '515' => Clean: '515' => Honors: False
+  Added to 'MUZAHID A' REGULAR: 3.45454545454545
+Section is too old.
+551
+Section: '551' => Clean: '551' => Honors: False
+  Added to 'DUYSAK A' REGULAR: 3.78571428571429
+Section is too old.
+[3.13636363636364, 3.04347826086957, 2.47368421052632, 3.11111111111111, 3.26086956521739, 2.77272727272727, 3.17391304347826, 3.05263157894737]
+[]
+[3.66666666666667, 3.5, 3.18181818181818, 3.36363636363636, 3.35, 3.375, 3.25, 3.32142857142857, 3.40740740740741, 3.42857142857143, 3.32, 3.04545454545455, 3.1304347826087, 3.76190476190476, 3.56521739130435, 3.73684210526316, 3.63636363636364]
+[]
+[3.44827586206897, 3.5, 3.5, 3.37931034482759, 3.64705882352941, 3.39285714285714, 3.52, 3.26315789473684, 3.37037037037037, 3.33333333333333, 3.38461538461538, 3.15384615384615, 3.70833333333333, 3.70833333333333, 3.25, 3.60869565217391, 3.5, 2.91666666666667, 3.27272727272727, 3.61538461538462, 3.87878787878788, 3.84375, 3.70967741935484, 3.83333333333333, 3.84848484848485, 3.15, 3.71428571428571, 3.8125, 3.86206896551724]
+[]
+[3.63333333333333, 3.53571428571429, 3.61538461538462, 3.31578947368421, 2.6875, 3.72727272727273, 3.86363636363636, 3.61904761904762, 3.45, 3.3, 3.33333333333333, 3.26666666666667, 3.16, 3.33333333333333, 3.81818181818182, 3.75, 3.875, 3.875]
+[]
+[2.91304347826087, 2.96153846153846, 3.27272727272727, 3.70833333333333, 3.42857142857143, 3.54545454545455, 3.45454545454545]
+[2.9047619047619, 3.17391304347826, 3.1304347826087, 3.375]
+[3.76923076923077, 4.0, 3.78571428571429]
+
+Processed professor data:
+  MAHAPATRA R: Regular: 8 sections, Honors: 0 sections
+  LEE H: Regular: 0 sections, Honors: 0 sections
+  KIM E: Regular: 17 sections, Honors: 5 sections
+  HAMMOND T: Regular: 0 sections, Honors: 0 sections
+  TYAGI A: Regular: 29 sections, Honors: 5 sections
+  YUM K: Regular: 0 sections, Honors: 0 sections
+  JIMENEZ D: Regular: 18 sections, Honors: 0 sections
+  DASS J: Regular: 0 sections, Honors: 0 sections
+  MUZAHID A: Regular: 7 sections, Honors: 0 sections
+  HOUNGNINOU D: Regular: 4 sections, Honors: 0 sections
+  DUYSAK A: Regular: 3 sections, Honors: 0 sections
+Found professors with GPAs: {'MAHAPATRA R': {'overall': 3.0030973349051164, 'regular': 3.0030973349051164, 'honors': 0, 'has_regular': True, 'has_honors': False, 'regular_count': 8, 'honors_count': 0}, 'LEE H': {'overall': 0, 'regular': 0, 'honors': 0, 'has_regular': False, 'has_honors': False, 'regular_count': 0, 'honors_count': 0}, 'KIM E': {'overall': 3.50033590778835, 'regular': 3.41416152014281, 'honors': 3.7933288257831883, 'has_regular': True, 'has_honors': True, 'regular_count': 17, 'honors_count': 5}, 'HAMMOND T': {'overall': 0, 'regular': 0, 'honors': 0, 'has_regular': False, 'has_honors': False, 'regular_count': 0, 'honors_count': 0}, 'TYAGI A': {'overall': 3.523250115748891, 'regular': 3.5215811842609703, 'honors': 3.5329299183788336, 'has_regular': True, 'has_honors': True, 'regular_count': 29, 'honors_count': 5}, 'YUM K': {'overall': 0, 'regular': 0, 'honors': 0, 'has_regular': False, 'has_honors': False, 'regular_count': 0, 'honors_count': 0}, 'JIMENEZ D': {'overall': 3.5088440871993503, 'regular': 3.5088440871993503, 'honors': 0, 'has_regular': True, 'has_honors': False, 'regular_count': 18, 'honors_count': 0}, 'DASS J': {'overall': 0, 'regular': 0, 'honors': 0, 'has_regular': False, 'has_honors': False, 'regular_count': 0, 'honors_count': 0}, 'MUZAHID A': {'overall': 3.3263162820616228, 'regular': 3.3263162820616228, 'honors': 0, 'has_regular': True, 'has_honors': False, 'regular_count': 7, 'honors_count': 0}, 'HOUNGNINOU D': {'overall': 3.1460274327122146, 'regular': 3.1460274327122146, 'honors': 0, 'has_regular': True, 'has_honors': False, 'regular_count': 4, 'honors_count': 0}, 'DUYSAK A': {'overall': 3.8516483516483535, 'regular': 3.8516483516483535, 'honors': 0, 'has_regular': True, 'has_honors': False, 'regular_count': 3, 'honors_count': 0}}
+Successfully imported RMP module
+ENDPOINTS.PY IS BEING USED
+Email credentials loaded - Sender: aggieclassalert@gmail.com, Password: ******
+
+Fetching classes for term 202535...
+Response status code: 200
+Successfully fetched 7930 classes for term 202535
+
+Fetching classes for term 202532...
+Response status code: 200
+Successfully fetched 540 classes for term 202532
+
+Fetching classes for term 202531...
+Response status code: 200
+Successfully fetched 21435 classes for term 202531
+
+Fetching classes for term 202523...
+Response status code: 200
+Successfully fetched 48 classes for term 202523
+
+Fetching classes for term 202522...
+Response status code: 200
+Successfully fetched 106 classes for term 202522
+
+Fetching classes for term 202521...
+Response status code: 200
+Successfully fetched 11821 classes for term 202521
+Database indexes created successfully
+Starting AggieClassAlert backend server on localhost:5001
+Monitoring thread started
+
+===== REGISTERED ROUTES =====
+static: {'OPTIONS', 'GET', 'HEAD'} - /static/<path:filename>
+add_alert: {'OPTIONS', 'POST'} - /api/add-alert
+get_emails: {'OPTIONS', 'GET', 'HEAD'} - /api/emails
+delete_alert: {'OPTIONS', 'DELETE'} - /api/alerts/delete
+get_alerts_by_email: {'OPTIONS', 'GET', 'HEAD'} - /api/alerts/by-email/<email>
+get_alerts: {'OPTIONS', 'GET', 'HEAD'} - /api/alerts
+login_user: {'OPTIONS', 'POST'} - /api/users/login
+check_user: {'OPTIONS', 'GET', 'HEAD'} - /api/users/check/<email>
+handle_login_options: {'OPTIONS'} - /api/users/login
+handle_users_check_options: {'OPTIONS'} - /api/users/check/<email>
+search_professors: {'OPTIONS', 'GET', 'HEAD'} - /api/professors/search
+get_status: {'OPTIONS', 'GET', 'HEAD'} - /api/status
+verify_phone: {'OPTIONS', 'POST'} - /api/verify-phone
+handle_verify_phone_options: {'OPTIONS'} - /api/verify-phone
+confirm_phone: {'OPTIONS', 'POST'} - /api/verify-phone/confirm
+handle_verify_phone_confirm_options: {'OPTIONS'} - /api/verify-phone/confirm
+get_user_profile: {'OPTIONS', 'GET', 'HEAD'} - /api/users/profile
+handle_user_profile_options: {'OPTIONS'} - /api/users/profile
+handle_send_sms_options: {'OPTIONS'} - /api/send-sms
+send_sms: {'OPTIONS', 'POST'} - /api/send-sms
+=============================
+
+ * Serving Flask app 'endpoints'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://localhost:5001
+Press CTRL+C to quit
+127.0.0.1 - - [21/Apr/2025 17:36:53] "OPTIONS /api/users/login HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 17:36:53] "POST /api/users/login HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 17:36:55] "GET /shellcode_pls.woff?_=0 HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:40:46] "GET /.env HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:40:47] "GET /config/.env HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:40:47] "GET /.env.production HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:40:47] "GET /api/.env HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:40:47] "GET /settings/.env HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:40:47] "GET /config/app.php HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:40:47] "GET /application.yml HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:40:48] "GET /config/database.yml HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:40:56] "GET /secrets.json HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:40:56] "GET /src/config.js HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:40:56] "GET /db.ini HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:40:56] "GET /api/credentials HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:40:56] "GET /.aws/credentials HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:40:56] "GET /secure-config.json HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:40:56] "GET /local_settings.py HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:40:56] "GET /config/default.json HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:40:56] "GET /config/production.json HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:40:57] "GET /bootstrap/cache/config.php HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:40:57] "GET /config/secrets.yml HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:40:57] "GET /settings.yaml HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:40:57] "GET /auth.json HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:40:57] "GET /helm/values.yaml HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:40:57] "GET /docker/.env HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:40:57] "GET /wp-config.php HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:40:58] "GET /config.json HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:40:58] "GET /database.json HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:40:58] "GET /config/secrets.json HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:40:58] "GET /env.backup HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:40:58] "GET /settings.bak HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:05] "GET /backup.env HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:05] "GET /old/.env HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:05] "GET /phpinfo.php HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:05] "GET /info.php HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:05] "GET /test.php HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:06] "GET /laravel/.env HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:06] "GET /app/config/.env HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:06] "GET /.git/config HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:06] "GET /.svn/entries HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:06] "GET /.git/HEAD HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:06] "GET /.git/index HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:06] "GET /.git/logs/HEAD HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:06] "GET /.gitignore HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:06] "GET /administrator/index.php HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:06] "GET /wp-admin/install.php HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:07] "GET /joomla/configuration.php-dist HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:07] "GET /sites/default/settings.php HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:07] "GET /bitrix/php_interface/dbconn.php HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:07] "GET /typo3conf/localconf.php HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:08] "GET /config.inc.php HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:08] "GET /config.old.php HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:08] "GET /php.ini HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:08] "GET /cgi-bin/phpinfo.php HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:08] "GET /debug.php HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:08] "GET /server-status HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:08] "GET /phpinfo1.php HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:08] "GET /phpinfo2.php HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:08] "GET /env.txt HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:09] "GET /prod.env HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:09] "GET /stage.env HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:09] "GET /development.env HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:09] "GET /credentials.env HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:09] "GET /public/.env HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:09] "GET /api/config.json HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:09] "GET /composer.json HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:09] "GET /api/v1/.env HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:10] "GET /staging.env HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:10] "GET /phpmyadmin/index.php HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:10] "GET /backup/config.php HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:10] "GET /.env.example HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:10] "GET /storage/logs/laravel.log HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:10] "GET /storage/framework/sessions/ HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:10] "GET /storage/framework/cache/ HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:10] "GET /storage/framework/views/ HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:10] "GET /nova-api/styles HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:11] "GET /.env.local HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:11] "GET /.env.dev HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:11] "GET /.env.test HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:11] "GET /var/logs/dev.log HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:11] "GET /var/logs/prod.log HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:11] "GET /config/packages/ HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:11] "GET /web/config.php HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:11] "GET /config/routes.yaml HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:11] "GET /web.config HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:12] "GET /.htaccess HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:12] "GET /sites/all/modules/ HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:12] "GET /sites/all/themes/ HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:12] "GET /core/install.php HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:12] "GET /CHANGELOG.txt HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:12] "GET /app/etc/local.xml HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:12] "GET /app/etc/env.php HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:12] "GET /var/log/system.log HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:17] "GET /var/log/exception.log HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:17] "GET /.wp-config.php.swp HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:17] "GET /wp-config-sample.php HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:17] "GET /wp-content/debug.log HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:17] "GET /xmlrpc.php HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:18] "GET /wp-json/wp/v2/users HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:18] "GET /configuration.php~ HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:24] "GET /logs/error.php HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:25] "GET /package.json HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:25] "GET /yarn.lock HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:25] "GET /.npmrc HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:25] "GET /server.js HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:25] "GET /app.js HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:25] "GET /config.js HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:25] "GET /.dockerignore HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:25] "GET /Dockerfile HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:26] "GET /.git/logs/ HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:26] "GET /.git/refs/ HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:26] "GET /.git/objects/ HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:26] "GET /.git/packed-refs HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:26] "GET /.git/branches/ HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:26] "GET /api-docs HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:26] "GET /swagger.json HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:26] "GET /swagger-ui.html HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:26] "GET /openapi.json HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:26] "GET /backup.sql HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:27] "GET /db_backup.sql HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:41:27] "GET /.well-known/security.txt HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 17:55:33] "OPTIONS /api/users/login HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 17:55:34] "POST /api/users/login HTTP/1.0" 200 -
+Starting continuous monitoring of all CRNs in database
+Checking every 60 seconds. Press Ctrl+C to stop.
+No active CRNs to monitor. Waiting...
+================================================
+LOGIN ENDPOINT CALLED - 2025-04-21 17:36:53
+================================================
+Received data: {'email': 'kaunaga123@gmail.com', 'original_email': 'kaunaga123@gmail.com', 'google_auth': True, 'user_data': {'iss': 'https://accounts.google.com', 'azp': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'aud': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'sub': '101106627975214364955', 'email': 'kaunaga123@gmail.com', 'email_verified': True, 'nbf': 1744754162, 'name': 'Kaushik Nagarajan', 'picture': 'https://lh3.googleusercontent.com/a/ACg8ocKzgOZYuAqy8mpCLMVwv3h3ZStQMF4IRMb-I8yVL372bu5uoQ=s96-c', 'given_name': 'Kaushik', 'family_name': 'Nagarajan', 'iat': 1744754462, 'exp': 1744758062, 'jti': '4de73013ec757df4f935c82363ac68f26604d287'}}
+Google Auth login detected for kaunaga123@gmail.com
+Raw email: kaunaga123@gmail.com
+Original email: kaunaga123@gmail.com
+Normalized email: kaunaga123@gmail.com
+Processing login for email: kaunaga123@gmail.com (raw: kaunaga123@gmail.com)
+Checking if user exists in database with email: kaunaga123@gmail.com
+Found 1 matching users
+User found, updating last login time for: kaunaga123@gmail.com
+Update result: 1 documents modified
+Current user data: {'_id': ObjectId('67fed71ecb2dbe7861509b35'), 'email': 'kaunaga123@gmail.com', 'original_email': 'kaunaga123@gmail.com', 'created_at': 1744754462.8880801, 'last_login': 1745257013.7581537, 'is_google_auth': True, 'phone_number': '3605253013', 'phone_verified': True, 'phone_carrier': 'tmobile', 'phone_verified_at': None, 'google_auth_data': {'iss': 'https://accounts.google.com', 'azp': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'aud': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'sub': '101106627975214364955', 'email': 'kaunaga123@gmail.com', 'email_verified': True, 'nbf': 1744754162, 'name': 'Kaushik Nagarajan', 'picture': 'https://lh3.googleusercontent.com/a/ACg8ocKzgOZYuAqy8mpCLMVwv3h3ZStQMF4IRMb-I8yVL372bu5uoQ=s96-c', 'given_name': 'Kaushik', 'family_name': 'Nagarajan', 'iat': 1744754462, 'exp': 1744758062, 'jti': '4de73013ec757df4f935c82363ac68f26604d287'}, 'name': 'Kaushik Nagarajan', 'profile_picture': 'https://lh3.googleusercontent.com/a/ACg8ocKzgOZYuAqy8mpCLMVwv3h3ZStQMF4IRMb-I8yVL372bu5uoQ=s96-c'}
+Total users in database: 94
+Login successful!
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+================================================
+LOGIN ENDPOINT CALLED - 2025-04-21 17:55:33
+================================================
+Received data: {'email': 'colinxu2006@gmail.com', 'original_email': 'colinxu2006@gmail.com', 'google_auth': True, 'user_data': {'iss': 'https://accounts.google.com', 'azp': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'aud': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'sub': '105394218807155710548', 'email': 'colinxu2006@gmail.com', 'email_verified': True, 'nbf': 1745173624, 'name': 'Colin Xu', 'picture': 'https://lh3.googleusercontent.com/a/ACg8ocKsiJwk56lCjzn-9sEmOldrNo4z6AcWzhT739ok9Mm9Z8kVyYi_=s96-c', 'given_name': 'Colin', 'family_name': 'Xu', 'iat': 1745173924, 'exp': 1745177524, 'jti': '367eeeb9ec0afa05ea3e5d085194afa4472c477b'}}
+Google Auth login detected for colinxu2006@gmail.com
+Raw email: colinxu2006@gmail.com
+Original email: colinxu2006@gmail.com
+Normalized email: colinxu2006@gmail.com
+Processing login for email: colinxu2006@gmail.com (raw: colinxu2006@gmail.com)
+Checking if user exists in database with email: colinxu2006@gmail.com
+Found 1 matching users
+User found, updating last login time for: colinxu2006@gmail.com
+Update result: 1 documents modified
+Current user data: {'_id': ObjectId('67ec881987ffc7df66e7be1d'), 'email': 'colinxu2006@gmail.com', 'original_email': 'colinxu2006@gmail.com', 'created_at': 1743554585.1834931, 'last_login': 1745258133.8751984, 'is_gmail': True, 'google_auth_data': {'iss': 'https://accounts.google.com', 'azp': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'aud': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'sub': '105394218807155710548', 'email': 'colinxu2006@gmail.com', 'email_verified': True, 'nbf': 1745173624, 'name': 'Colin Xu', 'picture': 'https://lh3.googleusercontent.com/a/ACg8ocKsiJwk56lCjzn-9sEmOldrNo4z6AcWzhT739ok9Mm9Z8kVyYi_=s96-c', 'given_name': 'Colin', 'family_name': 'Xu', 'iat': 1745173924, 'exp': 1745177524, 'jti': '367eeeb9ec0afa05ea3e5d085194afa4472c477b'}, 'is_google_auth': True, 'name': 'Colin Xu', 'profile_picture': 'https://lh3.googleusercontent.com/a/ACg8ocKsiJwk56lCjzn-9sEmOldrNo4z6AcWzhT739ok9Mm9Z8kVyYi_=s96-c', 'phone_carrier': 'tmobile', 'phone_number': '3605253013', 'phone_verified': True, 'phone_verified_at': 1743897657.339128}
+Total users in database: 94
+Added user to email collection: colinxu2006@gmail.com
+Login successful!
+================================================
+LOGIN ENDPOINT CALLED - 2025-04-21 17:55:35
+================================================
+Received data: {'email': 'colinxu2006@gmail.com', 'original_email': 'colinxu2006@gmail.com', 'google_auth': True, 'user_data': {'iss': 'https://accounts.google.com', 'azp': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'aud': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'sub': '105394218807155710548', 'email': 'colinxu2006@gmail.com', 'email_verified': True, 'nbf': 1745173624, 'name': 'Colin Xu', 'picture': 'https://lh3.googleusercontent.com/a/ACg8ocKsiJwk56lCjzn-9sEmOldrNo4z6AcWzhT739ok9Mm9Z8kVyYi_=s96-c', 'given_name': 'Colin', 'family_name': 'Xu', 'iat': 1745173924, 'exp': 1745177524, 'jti': '367eeeb9ec0afa05ea3e5d085194afa4472c477b'}}
+Google Auth login detected for colinxu2006@gmail.com
+Raw email: colinxu2006@gmail.com
+Original email: colinxu2006@gmail.com
+Normalized email: colinxu2006@gmail.com
+Processing login for email: colinxu2006@gmail.com (raw: colinxu2006@gmail.com)
+Checking if user exists in database with email: colinxu2006@gmail.com
+Found 1 matching users
+User found, updating last login time for: colinxu2006@gmail.com
+Update result: 1 documents modified
+127.0.0.1 - - [21/Apr/2025 17:55:35] "POST /api/users/login HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 17:55:36] "OPTIONS /api/status HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 17:55:37] "GET /api/status HTTP/1.0" 401 -
+127.0.0.1 - - [21/Apr/2025 17:55:37] "OPTIONS /api/alerts/by-email/colinxu2006@gmail.com HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 17:55:37] "OPTIONS /api/users/profile?email=colinxu2006@gmail.com HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 17:55:37] "GET /api/alerts/by-email/colinxu2006@gmail.com HTTP/1.0" 401 -
+127.0.0.1 - - [21/Apr/2025 17:55:38] "GET /api/users/profile?email=colinxu2006@gmail.com HTTP/1.0" 401 -
+127.0.0.1 - - [21/Apr/2025 17:55:48] "OPTIONS /api/users/login HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 17:55:48] "OPTIONS /api/status HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 17:55:48] "GET /api/status HTTP/1.0" 401 -
+127.0.0.1 - - [21/Apr/2025 17:55:48] "POST /api/users/login HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 17:55:49] "OPTIONS /api/users/profile?email=colinxu2006@gmail.com HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 17:55:49] "GET /api/users/profile?email=colinxu2006@gmail.com HTTP/1.0" 401 -
+127.0.0.1 - - [21/Apr/2025 17:55:50] "OPTIONS /api/alerts/by-email/colinxu2006@gmail.com HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 17:55:50] "GET /api/users/profile?email=colinxu2006@gmail.com HTTP/1.0" 401 -
+127.0.0.1 - - [21/Apr/2025 17:55:50] "GET /api/alerts/by-email/colinxu2006@gmail.com HTTP/1.0" 401 -
+127.0.0.1 - - [21/Apr/2025 18:03:24] "OPTIONS /api/users/login HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 18:03:24] "POST /api/users/login HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 18:03:25] "OPTIONS /api/status HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 18:03:25] "GET /api/status HTTP/1.0" 401 -
+Current user data: {'_id': ObjectId('67ec881987ffc7df66e7be1d'), 'email': 'colinxu2006@gmail.com', 'original_email': 'colinxu2006@gmail.com', 'created_at': 1743554585.1834931, 'last_login': 1745258135.3976762, 'is_gmail': True, 'google_auth_data': {'iss': 'https://accounts.google.com', 'azp': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'aud': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'sub': '105394218807155710548', 'email': 'colinxu2006@gmail.com', 'email_verified': True, 'nbf': 1745173624, 'name': 'Colin Xu', 'picture': 'https://lh3.googleusercontent.com/a/ACg8ocKsiJwk56lCjzn-9sEmOldrNo4z6AcWzhT739ok9Mm9Z8kVyYi_=s96-c', 'given_name': 'Colin', 'family_name': 'Xu', 'iat': 1745173924, 'exp': 1745177524, 'jti': '367eeeb9ec0afa05ea3e5d085194afa4472c477b'}, 'is_google_auth': True, 'name': 'Colin Xu', 'profile_picture': 'https://lh3.googleusercontent.com/a/ACg8ocKsiJwk56lCjzn-9sEmOldrNo4z6AcWzhT739ok9Mm9Z8kVyYi_=s96-c', 'phone_carrier': 'tmobile', 'phone_number': '3605253013', 'phone_verified': True, 'phone_verified_at': 1743897657.339128}
+Total users in database: 94
+Login successful!
+================================================
+LOGIN ENDPOINT CALLED - 2025-04-21 17:55:48
+================================================
+Received data: {'email': 'colinxu2006@gmail.com', 'original_email': 'colinxu2006@gmail.com', 'google_auth': True, 'user_data': {'iss': 'https://accounts.google.com', 'azp': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'aud': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'sub': '105394218807155710548', 'email': 'colinxu2006@gmail.com', 'email_verified': True, 'nbf': 1745173624, 'name': 'Colin Xu', 'picture': 'https://lh3.googleusercontent.com/a/ACg8ocKsiJwk56lCjzn-9sEmOldrNo4z6AcWzhT739ok9Mm9Z8kVyYi_=s96-c', 'given_name': 'Colin', 'family_name': 'Xu', 'iat': 1745173924, 'exp': 1745177524, 'jti': '367eeeb9ec0afa05ea3e5d085194afa4472c477b'}}
+Google Auth login detected for colinxu2006@gmail.com
+Raw email: colinxu2006@gmail.com
+Original email: colinxu2006@gmail.com
+Normalized email: colinxu2006@gmail.com
+Processing login for email: colinxu2006@gmail.com (raw: colinxu2006@gmail.com)
+Checking if user exists in database with email: colinxu2006@gmail.com
+Found 1 matching users
+User found, updating last login time for: colinxu2006@gmail.com
+Update result: 1 documents modified
+Current user data: {'_id': ObjectId('67ec881987ffc7df66e7be1d'), 'email': 'colinxu2006@gmail.com', 'original_email': 'colinxu2006@gmail.com', 'created_at': 1743554585.1834931, 'last_login': 1745258148.5169873, 'is_gmail': True, 'google_auth_data': {'iss': 'https://accounts.google.com', 'azp': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'aud': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'sub': '105394218807155710548', 'email': 'colinxu2006@gmail.com', 'email_verified': True, 'nbf': 1745173624, 'name': 'Colin Xu', 'picture': 'https://lh3.googleusercontent.com/a/ACg8ocKsiJwk56lCjzn-9sEmOldrNo4z6AcWzhT739ok9Mm9Z8kVyYi_=s96-c', 'given_name': 'Colin', 'family_name': 'Xu', 'iat': 1745173924, 'exp': 1745177524, 'jti': '367eeeb9ec0afa05ea3e5d085194afa4472c477b'}, 'is_google_auth': True, 'name': 'Colin Xu', 'profile_picture': 'https://lh3.googleusercontent.com/a/ACg8ocKsiJwk56lCjzn-9sEmOldrNo4z6AcWzhT739ok9Mm9Z8kVyYi_=s96-c', 'phone_carrier': 'tmobile', 'phone_number': '3605253013', 'phone_verified': True, 'phone_verified_at': 1743897657.339128}
+Total users in database: 94
+Login successful!
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+================================================
+LOGIN ENDPOINT CALLED - 2025-04-21 18:03:24
+================================================
+Received data: {'email': 'kaunaga123@gmail.com', 'original_email': 'kaunaga123@gmail.com', 'google_auth': True, 'user_data': {'iss': 'https://accounts.google.com', 'azp': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'aud': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'sub': '101106627975214364955', 'email': 'kaunaga123@gmail.com', 'email_verified': True, 'nbf': 1744754162, 'name': 'Kaushik Nagarajan', 'picture': 'https://lh3.googleusercontent.com/a/ACg8ocKzgOZYuAqy8mpCLMVwv3h3ZStQMF4IRMb-I8yVL372bu5uoQ=s96-c', 'given_name': 'Kaushik', 'family_name': 'Nagarajan', 'iat': 1744754462, 'exp': 1744758062, 'jti': '4de73013ec757df4f935c82363ac68f26604d287'}}
+Google Auth login detected for kaunaga123@gmail.com
+Raw email: kaunaga123@gmail.com
+Original email: kaunaga123@gmail.com
+Normalized email: kaunaga123@gmail.com
+Processing login for email: kaunaga123@gmail.com (raw: kaunaga123@gmail.com)
+Checking if user exists in database with email: kaunaga123@gmail.com
+Found 1 matching users
+User found, updating last login time for: kaunaga123@gmail.com
+Update result: 1 documents modified
+Current user data: {'_id': ObjectId('67fed71ecb2dbe7861509b35'), 'email': 'kaunaga123@gmail.com', 'original_email': 'kaunaga123@gmail.com', 'created_at': 1744754462.8880801, 'last_login': 1745258604.5629785, 'is_google_auth': True, 'phone_number': '3605253013', 'phone_verified': True, 'phone_carrier': 'tmobile', 'phone_verified_at': None, 'google_auth_data': {'iss': 'https://accounts.google.com', 'azp': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'aud': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'sub': '101106627975214364955', 'email': 'kaunaga123@gmail.com', 'email_verified': True, 'nbf': 1744754162, 'name': 'Kaushik Nagarajan', 'picture': 'https://lh3.googleusercontent.com/a/ACg8ocKzgOZYuAqy8mpCLMVwv3h3ZStQMF4IRMb-I8yVL372bu5uoQ=s96-c', 'given_name': 'Kaushik', 'family_name': 'Nagarajan', 'iat': 1744754462, 'exp': 1744758062, 'jti': '4de73013ec757df4f935c82363ac68f26604d287'}, 'name': 'Kaushik Nagarajan', 'profile_picture': 'https://lh3.googleusercontent.com/a/ACg8ocKzgOZYuAqy8mpCLMVwv3h3ZStQMF4IRMb-I8yVL372bu5uoQ=s96-c'}
+Total users in database: 94
+Login successful!
+================================================
+LOGIN ENDPOINT CALLED - 2025-04-21 18:03:27
+================================================
+Received data: {'email': 'kaunaga123@gmail.com', 'original_email': 'kaunaga123@gmail.com', 'google_auth': True, 'user_data': {'iss': 'https://accounts.google.com', 'azp': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'aud': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'sub': '101106627975214364955', 'email': 'kaunaga123@gmail.com', 'email_verified': True, 'nbf': 1744754162, 'name': 'Kaushik Nagarajan', 'picture': 'https://lh3.googleusercontent.com/a/ACg8ocKzgOZYuAqy8mpCLMVwv3h3ZStQMF4IRMb-I8yVL372bu5uoQ=s96-c', 'given_name': 'Kaushik', 'family_name': 'Nagarajan', 'iat': 1744754462, 'exp': 1744758062, 'jti': '4de73013ec757df4f935c82363ac68f26604d287'}}
+Google Auth login detected for kaunaga123@gmail.com
+Raw email: kaunaga123@gmail.com
+Original email: kaunaga123@gmail.com
+Normalized email: kaunaga123@gmail.com
+Processing login for email: kaunaga123@gmail.com (raw: kaunaga123@gmail.com)
+Checking if user exists in database with email: kaunaga123@gmail.com
+Found 1 matching users
+User found, updating last login time for: kaunaga123@gmail.com
+Update result: 1 documents modified
+127.0.0.1 - - [21/Apr/2025 18:03:27] "GET /api/status HTTP/1.0" 401 -
+127.0.0.1 - - [21/Apr/2025 18:03:27] "POST /api/users/login HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 18:04:02] "OPTIONS /api/users/login HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 18:04:02] "POST /api/users/login HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 18:04:09] "OPTIONS /api/users/login HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 18:04:09] "OPTIONS /api/status HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 18:04:09] "GET /api/status HTTP/1.0" 401 -
+127.0.0.1 - - [21/Apr/2025 18:04:09] "POST /api/users/login HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 18:09:22] "OPTIONS /api/users/login HTTP/1.0" 200 -
+Current user data: {'_id': ObjectId('67fed71ecb2dbe7861509b35'), 'email': 'kaunaga123@gmail.com', 'original_email': 'kaunaga123@gmail.com', 'created_at': 1744754462.8880801, 'last_login': 1745258607.1996052, 'is_google_auth': True, 'phone_number': '3605253013', 'phone_verified': True, 'phone_carrier': 'tmobile', 'phone_verified_at': None, 'google_auth_data': {'iss': 'https://accounts.google.com', 'azp': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'aud': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'sub': '101106627975214364955', 'email': 'kaunaga123@gmail.com', 'email_verified': True, 'nbf': 1744754162, 'name': 'Kaushik Nagarajan', 'picture': 'https://lh3.googleusercontent.com/a/ACg8ocKzgOZYuAqy8mpCLMVwv3h3ZStQMF4IRMb-I8yVL372bu5uoQ=s96-c', 'given_name': 'Kaushik', 'family_name': 'Nagarajan', 'iat': 1744754462, 'exp': 1744758062, 'jti': '4de73013ec757df4f935c82363ac68f26604d287'}, 'name': 'Kaushik Nagarajan', 'profile_picture': 'https://lh3.googleusercontent.com/a/ACg8ocKzgOZYuAqy8mpCLMVwv3h3ZStQMF4IRMb-I8yVL372bu5uoQ=s96-c'}
+Total users in database: 94
+Login successful!
+No active CRNs to monitor. Waiting...
+================================================
+LOGIN ENDPOINT CALLED - 2025-04-21 18:04:02
+================================================
+Received data: {'email': 'kaudar123@gmail.com', 'original_email': 'kaudar123@gmail.com', 'google_auth': True, 'user_data': {'iss': 'https://accounts.google.com', 'azp': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'aud': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'sub': '106802500924015213904', 'email': 'kaudar123@gmail.com', 'email_verified': True, 'nbf': 1745258341, 'name': 'KauDar123', 'picture': 'https://lh3.googleusercontent.com/a/ACg8ocJyoFAxbk1lVvOEpMPEVd6dTETN9kz2VigpgXurhnEzWB0bSNVJ=s96-c', 'given_name': 'KauDar123', 'iat': 1745258641, 'exp': 1745262241, 'jti': 'e18a899cb84e9a3f83991c41d28d0ae1dc8397f8'}}
+Google Auth login detected for kaudar123@gmail.com
+Raw email: kaudar123@gmail.com
+Original email: kaudar123@gmail.com
+Normalized email: kaudar123@gmail.com
+Processing login for email: kaudar123@gmail.com (raw: kaudar123@gmail.com)
+Checking if user exists in database with email: kaudar123@gmail.com
+Found 1 matching users
+User found, updating last login time for: kaudar123@gmail.com
+Update result: 1 documents modified
+Current user data: {'_id': ObjectId('67ed683ed476cd13849f4862'), 'email': 'kaudar123@gmail.com', 'original_email': 'kaudar123@gmail.com', 'created_at': 1743611966.109906, 'last_login': 1745258642.2011857, 'is_google_auth': True, 'google_auth_data': {'iss': 'https://accounts.google.com', 'azp': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'aud': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'sub': '106802500924015213904', 'email': 'kaudar123@gmail.com', 'email_verified': True, 'nbf': 1745258341, 'name': 'KauDar123', 'picture': 'https://lh3.googleusercontent.com/a/ACg8ocJyoFAxbk1lVvOEpMPEVd6dTETN9kz2VigpgXurhnEzWB0bSNVJ=s96-c', 'given_name': 'KauDar123', 'iat': 1745258641, 'exp': 1745262241, 'jti': 'e18a899cb84e9a3f83991c41d28d0ae1dc8397f8'}, 'name': 'KauDar123', 'profile_picture': 'https://lh3.googleusercontent.com/a/ACg8ocJyoFAxbk1lVvOEpMPEVd6dTETN9kz2VigpgXurhnEzWB0bSNVJ=s96-c', 'phone_carrier': 'tmobile', 'phone_number': '5125665282', 'phone_verified': True, 'phone_verified_at': 1744240385.6286035}
+Total users in database: 94
+Login successful!
+================================================
+LOGIN ENDPOINT CALLED - 2025-04-21 18:04:09
+================================================
+Received data: {'email': 'kaudar123@gmail.com', 'original_email': 'kaudar123@gmail.com', 'google_auth': True, 'user_data': {'iss': 'https://accounts.google.com', 'azp': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'aud': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'sub': '106802500924015213904', 'email': 'kaudar123@gmail.com', 'email_verified': True, 'nbf': 1745258341, 'name': 'KauDar123', 'picture': 'https://lh3.googleusercontent.com/a/ACg8ocJyoFAxbk1lVvOEpMPEVd6dTETN9kz2VigpgXurhnEzWB0bSNVJ=s96-c', 'given_name': 'KauDar123', 'iat': 1745258641, 'exp': 1745262241, 'jti': 'e18a899cb84e9a3f83991c41d28d0ae1dc8397f8'}}
+Google Auth login detected for kaudar123@gmail.com
+Raw email: kaudar123@gmail.com
+Original email: kaudar123@gmail.com
+Normalized email: kaudar123@gmail.com
+Processing login for email: kaudar123@gmail.com (raw: kaudar123@gmail.com)
+Checking if user exists in database with email: kaudar123@gmail.com
+Found 1 matching users
+User found, updating last login time for: kaudar123@gmail.com
+Update result: 1 documents modified
+Current user data: {'_id': ObjectId('67ed683ed476cd13849f4862'), 'email': 'kaudar123@gmail.com', 'original_email': 'kaudar123@gmail.com', 'created_at': 1743611966.109906, 'last_login': 1745258649.7848358, 'is_google_auth': True, 'google_auth_data': {'iss': 'https://accounts.google.com', 'azp': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'aud': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'sub': '106802500924015213904', 'email': 'kaudar123@gmail.com', 'email_verified': True, 'nbf': 1745258341, 'name': 'KauDar123', 'picture': 'https://lh3.googleusercontent.com/a/ACg8ocJyoFAxbk1lVvOEpMPEVd6dTETN9kz2VigpgXurhnEzWB0bSNVJ=s96-c', 'given_name': 'KauDar123', 'iat': 1745258641, 'exp': 1745262241, 'jti': 'e18a899cb84e9a3f83991c41d28d0ae1dc8397f8'}, 'name': 'KauDar123', 'profile_picture': 'https://lh3.googleusercontent.com/a/ACg8ocJyoFAxbk1lVvOEpMPEVd6dTETN9kz2VigpgXurhnEzWB0bSNVJ=s96-c', 'phone_carrier': 'tmobile', 'phone_number': '5125665282', 'phone_verified': True, 'phone_verified_at': 1744240385.6286035}
+Total users in database: 94
+Login successful!
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+================================================
+LOGIN ENDPOINT CALLED - 2025-04-21 18:09:22
+================================================
+Received data: {'email': 'colinxu2006@gmail.com', 'original_email': 'colinxu2006@gmail.com', 'google_auth': True, 'user_data': {'iss': 'https://accounts.google.com', 'azp': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'aud': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'sub': '105394218807155710548', 'email': 'colinxu2006@gmail.com', 'email_verified': True, 'nbf': 1745173624, 'name': 'Colin Xu', 'picture': 'https://lh3.googleusercontent.com/a/ACg8ocKsiJwk56lCjzn-9sEmOldrNo4z6AcWzhT739ok9Mm9Z8kVyYi_=s96-c', 'given_name': 'Colin', 'family_name': 'Xu', 'iat': 1745173924, 'exp': 1745177524, 'jti': '367eeeb9ec0afa05ea3e5d085194afa4472c477b'}}
+Google Auth login detected for colinxu2006@gmail.com
+Raw email: colinxu2006@gmail.com
+Original email: colinxu2006@gmail.com
+Normalized email: colinxu2006@gmail.com
+Processing login for email: colinxu2006@gmail.com (raw: colinxu2006@gmail.com)
+Checking if user exists in database with email: colinxu2006@gmail.com
+Found 1 matching users
+User found, updating last login time for: colinxu2006@gmail.com
+Update result: 1 documents modified
+127.0.0.1 - - [21/Apr/2025 18:09:22] "POST /api/users/login HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 18:09:30] "OPTIONS /api/status HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 18:09:30] "GET /api/status HTTP/1.0" 401 -
+127.0.0.1 - - [21/Apr/2025 18:09:31] "OPTIONS /api/alerts/by-email/colinxu2006@gmail.com HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 18:09:31] "OPTIONS /api/users/profile?email=colinxu2006@gmail.com HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 18:09:31] "GET /api/alerts/by-email/colinxu2006@gmail.com HTTP/1.0" 401 -
+127.0.0.1 - - [21/Apr/2025 18:09:31] "GET /api/users/profile?email=colinxu2006@gmail.com HTTP/1.0" 401 -
+127.0.0.1 - - [21/Apr/2025 18:09:32] "GET /api/status HTTP/1.0" 401 -
+127.0.0.1 - - [21/Apr/2025 18:14:50] "OPTIONS /api/users/login HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 18:14:50] "OPTIONS /api/status HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 18:14:50] "GET /api/status HTTP/1.0" 401 -
+127.0.0.1 - - [21/Apr/2025 18:14:50] "POST /api/users/login HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 18:31:14] "OPTIONS /api/users/login HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 18:31:14] "OPTIONS /api/status HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 18:31:14] "GET /api/status HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 18:31:14] "POST /api/users/login HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 18:31:22] "GET /api/status HTTP/1.0" 401 -
+127.0.0.1 - - [21/Apr/2025 18:31:23] "GET /favicon.ico HTTP/1.0" 404 -
+127.0.0.1 - - [21/Apr/2025 18:31:59] "OPTIONS /api/users/login HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 18:31:59] "OPTIONS /api/status HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 18:32:00] "GET /api/status HTTP/1.0" 401 -
+Current user data: {'_id': ObjectId('67ec881987ffc7df66e7be1d'), 'email': 'colinxu2006@gmail.com', 'original_email': 'colinxu2006@gmail.com', 'created_at': 1743554585.1834931, 'last_login': 1745258962.3910606, 'is_gmail': True, 'google_auth_data': {'iss': 'https://accounts.google.com', 'azp': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'aud': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'sub': '105394218807155710548', 'email': 'colinxu2006@gmail.com', 'email_verified': True, 'nbf': 1745173624, 'name': 'Colin Xu', 'picture': 'https://lh3.googleusercontent.com/a/ACg8ocKsiJwk56lCjzn-9sEmOldrNo4z6AcWzhT739ok9Mm9Z8kVyYi_=s96-c', 'given_name': 'Colin', 'family_name': 'Xu', 'iat': 1745173924, 'exp': 1745177524, 'jti': '367eeeb9ec0afa05ea3e5d085194afa4472c477b'}, 'is_google_auth': True, 'name': 'Colin Xu', 'profile_picture': 'https://lh3.googleusercontent.com/a/ACg8ocKsiJwk56lCjzn-9sEmOldrNo4z6AcWzhT739ok9Mm9Z8kVyYi_=s96-c', 'phone_carrier': 'tmobile', 'phone_number': '3605253013', 'phone_verified': True, 'phone_verified_at': 1743897657.339128}
+Total users in database: 94
+Login successful!
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+================================================
+LOGIN ENDPOINT CALLED - 2025-04-21 18:14:50
+================================================
+Received data: {'email': 'kaudar123@gmail.com', 'original_email': 'kaudar123@gmail.com', 'google_auth': True, 'user_data': {'iss': 'https://accounts.google.com', 'azp': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'aud': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'sub': '106802500924015213904', 'email': 'kaudar123@gmail.com', 'email_verified': True, 'nbf': 1745258341, 'name': 'KauDar123', 'picture': 'https://lh3.googleusercontent.com/a/ACg8ocJyoFAxbk1lVvOEpMPEVd6dTETN9kz2VigpgXurhnEzWB0bSNVJ=s96-c', 'given_name': 'KauDar123', 'iat': 1745258641, 'exp': 1745262241, 'jti': 'e18a899cb84e9a3f83991c41d28d0ae1dc8397f8'}}
+Google Auth login detected for kaudar123@gmail.com
+Raw email: kaudar123@gmail.com
+Original email: kaudar123@gmail.com
+Normalized email: kaudar123@gmail.com
+Processing login for email: kaudar123@gmail.com (raw: kaudar123@gmail.com)
+Checking if user exists in database with email: kaudar123@gmail.com
+Found 1 matching users
+User found, updating last login time for: kaudar123@gmail.com
+Update result: 1 documents modified
+Current user data: {'_id': ObjectId('67ed683ed476cd13849f4862'), 'email': 'kaudar123@gmail.com', 'original_email': 'kaudar123@gmail.com', 'created_at': 1743611966.109906, 'last_login': 1745259290.34412, 'is_google_auth': True, 'google_auth_data': {'iss': 'https://accounts.google.com', 'azp': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'aud': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'sub': '106802500924015213904', 'email': 'kaudar123@gmail.com', 'email_verified': True, 'nbf': 1745258341, 'name': 'KauDar123', 'picture': 'https://lh3.googleusercontent.com/a/ACg8ocJyoFAxbk1lVvOEpMPEVd6dTETN9kz2VigpgXurhnEzWB0bSNVJ=s96-c', 'given_name': 'KauDar123', 'iat': 1745258641, 'exp': 1745262241, 'jti': 'e18a899cb84e9a3f83991c41d28d0ae1dc8397f8'}, 'name': 'KauDar123', 'profile_picture': 'https://lh3.googleusercontent.com/a/ACg8ocJyoFAxbk1lVvOEpMPEVd6dTETN9kz2VigpgXurhnEzWB0bSNVJ=s96-c', 'phone_carrier': 'tmobile', 'phone_number': '5125665282', 'phone_verified': True, 'phone_verified_at': 1744240385.6286035}
+Total users in database: 94
+Login successful!
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+================================================
+LOGIN ENDPOINT CALLED - 2025-04-21 18:31:14
+================================================
+Received data: {'email': 'kaudar123@gmail.com', 'original_email': 'kaudar123@gmail.com', 'google_auth': True, 'user_data': {'iss': 'https://accounts.google.com', 'azp': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'aud': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'sub': '106802500924015213904', 'email': 'kaudar123@gmail.com', 'email_verified': True, 'nbf': 1745258341, 'name': 'KauDar123', 'picture': 'https://lh3.googleusercontent.com/a/ACg8ocJyoFAxbk1lVvOEpMPEVd6dTETN9kz2VigpgXurhnEzWB0bSNVJ=s96-c', 'given_name': 'KauDar123', 'iat': 1745258641, 'exp': 1745262241, 'jti': 'e18a899cb84e9a3f83991c41d28d0ae1dc8397f8'}}
+Google Auth login detected for kaudar123@gmail.com
+Raw email: kaudar123@gmail.com
+Original email: kaudar123@gmail.com
+Normalized email: kaudar123@gmail.com
+Processing login for email: kaudar123@gmail.com (raw: kaudar123@gmail.com)
+Checking if user exists in database with email: kaudar123@gmail.com
+Found 1 matching users
+User found, updating last login time for: kaudar123@gmail.com
+Update result: 1 documents modified
+Current user data: {'_id': ObjectId('67ed683ed476cd13849f4862'), 'email': 'kaudar123@gmail.com', 'original_email': 'kaudar123@gmail.com', 'created_at': 1743611966.109906, 'last_login': 1745260274.7614484, 'is_google_auth': True, 'google_auth_data': {'iss': 'https://accounts.google.com', 'azp': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'aud': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'sub': '106802500924015213904', 'email': 'kaudar123@gmail.com', 'email_verified': True, 'nbf': 1745258341, 'name': 'KauDar123', 'picture': 'https://lh3.googleusercontent.com/a/ACg8ocJyoFAxbk1lVvOEpMPEVd6dTETN9kz2VigpgXurhnEzWB0bSNVJ=s96-c', 'given_name': 'KauDar123', 'iat': 1745258641, 'exp': 1745262241, 'jti': 'e18a899cb84e9a3f83991c41d28d0ae1dc8397f8'}, 'name': 'KauDar123', 'profile_picture': 'https://lh3.googleusercontent.com/a/ACg8ocJyoFAxbk1lVvOEpMPEVd6dTETN9kz2VigpgXurhnEzWB0bSNVJ=s96-c', 'phone_carrier': 'tmobile', 'phone_number': '5125665282', 'phone_verified': True, 'phone_verified_at': 1744240385.6286035}
+Total users in database: 94
+Login successful!
+No active CRNs to monitor. Waiting...
+================================================
+LOGIN ENDPOINT CALLED - 2025-04-21 18:31:59
+================================================
+Received data: {'email': 'colinxu2006@gmail.com', 'original_email': 'colinxu2006@gmail.com', 'google_auth': True, 'user_data': {'iss': 'https://accounts.google.com', 'azp': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'aud': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'sub': '105394218807155710548', 'email': 'colinxu2006@gmail.com', 'email_verified': True, 'nbf': 1745173624, 'name': 'Colin Xu', 'picture': 'https://lh3.googleusercontent.com/a/ACg8ocKsiJwk56lCjzn-9sEmOldrNo4z6AcWzhT739ok9Mm9Z8kVyYi_=s96-c', 'given_name': 'Colin', 'family_name': 'Xu', 'iat': 1745173924, 'exp': 1745177524, 'jti': '367eeeb9ec0afa05ea3e5d085194afa4472c477b'}}
+Google Auth login detected for colinxu2006@gmail.com
+Raw email: colinxu2006@gmail.com
+Original email: colinxu2006@gmail.com
+Normalized email: colinxu2006@gmail.com
+Processing login for email: colinxu2006@gmail.com (raw: colinxu2006@gmail.com)
+Checking if user exists in database with email: colinxu2006@gmail.com
+Found 1 matching users
+User found, updating last login time for: colinxu2006@gmail.com
+Update result: 1 documents modified
+Token verification failed: Token expired, 1745177524 < 1745260320
+127.0.0.1 - - [21/Apr/2025 18:32:00] "POST /api/users/login HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 18:32:01] "OPTIONS /api/alerts/by-email/colinxu2006@gmail.com HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 18:32:01] "OPTIONS /api/users/profile?email=colinxu2006@gmail.com HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 18:32:01] "GET /api/alerts/by-email/colinxu2006@gmail.com HTTP/1.0" 401 -
+127.0.0.1 - - [21/Apr/2025 18:32:01] "GET /api/users/profile?email=colinxu2006@gmail.com HTTP/1.0" 401 -
+127.0.0.1 - - [21/Apr/2025 18:32:02] "GET /api/status HTTP/1.0" 401 -
+127.0.0.1 - - [21/Apr/2025 18:48:06] "OPTIONS /api/users/login HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 18:48:06] "OPTIONS /api/status HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 18:48:06] "GET /api/status HTTP/1.0" 401 -
+127.0.0.1 - - [21/Apr/2025 18:48:06] "POST /api/users/login HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 18:48:08] "OPTIONS /api/alerts/by-email/colinxu2006@gmail.com HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 18:48:08] "OPTIONS /api/users/profile?email=colinxu2006@gmail.com HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 18:48:08] "GET /api/alerts/by-email/colinxu2006@gmail.com HTTP/1.0" 401 -
+127.0.0.1 - - [21/Apr/2025 18:48:08] "GET /api/users/profile?email=colinxu2006@gmail.com HTTP/1.0" 401 -
+127.0.0.1 - - [21/Apr/2025 18:48:13] "OPTIONS /api/users/login HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 18:48:14] "POST /api/users/login HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 18:48:16] "OPTIONS /api/status HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 18:48:16] "GET /api/status HTTP/1.0" 401 -
+127.0.0.1 - - [21/Apr/2025 18:48:16] "OPTIONS /api/alerts/by-email/colinxu2006@gmail.com HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 18:48:16] "OPTIONS /api/users/profile?email=colinxu2006@gmail.com HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 18:48:16] "GET /api/alerts/by-email/colinxu2006@gmail.com HTTP/1.0" 401 -
+127.0.0.1 - - [21/Apr/2025 18:48:16] "GET /api/users/profile?email=colinxu2006@gmail.com HTTP/1.0" 401 -
+127.0.0.1 - - [21/Apr/2025 18:48:17] "GET /api/status HTTP/1.0" 401 -
+127.0.0.1 - - [21/Apr/2025 18:49:01] "OPTIONS /api/users/login HTTP/1.0" 200 -
+Current user data: {'_id': ObjectId('67ec881987ffc7df66e7be1d'), 'email': 'colinxu2006@gmail.com', 'original_email': 'colinxu2006@gmail.com', 'created_at': 1743554585.1834931, 'last_login': 1745260319.991485, 'is_gmail': True, 'google_auth_data': {'iss': 'https://accounts.google.com', 'azp': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'aud': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'sub': '105394218807155710548', 'email': 'colinxu2006@gmail.com', 'email_verified': True, 'nbf': 1745173624, 'name': 'Colin Xu', 'picture': 'https://lh3.googleusercontent.com/a/ACg8ocKsiJwk56lCjzn-9sEmOldrNo4z6AcWzhT739ok9Mm9Z8kVyYi_=s96-c', 'given_name': 'Colin', 'family_name': 'Xu', 'iat': 1745173924, 'exp': 1745177524, 'jti': '367eeeb9ec0afa05ea3e5d085194afa4472c477b'}, 'is_google_auth': True, 'name': 'Colin Xu', 'profile_picture': 'https://lh3.googleusercontent.com/a/ACg8ocKsiJwk56lCjzn-9sEmOldrNo4z6AcWzhT739ok9Mm9Z8kVyYi_=s96-c', 'phone_carrier': 'tmobile', 'phone_number': '3605253013', 'phone_verified': True, 'phone_verified_at': 1743897657.339128}
+Total users in database: 94
+Login successful!
+Token verification failed: Token expired, 1745177524 < 1745260321
+Token verification failed: Token expired, 1745177524 < 1745260321
+Token verification failed: Token expired, 1745177524 < 1745260322
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+================================================
+LOGIN ENDPOINT CALLED - 2025-04-21 18:48:06
+================================================
+Received data: {'email': 'colinxu2006@gmail.com', 'original_email': 'colinxu2006@gmail.com', 'google_auth': True, 'user_data': {'iss': 'https://accounts.google.com', 'azp': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'aud': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'sub': '105394218807155710548', 'email': 'colinxu2006@gmail.com', 'email_verified': True, 'nbf': 1745173624, 'name': 'Colin Xu', 'picture': 'https://lh3.googleusercontent.com/a/ACg8ocKsiJwk56lCjzn-9sEmOldrNo4z6AcWzhT739ok9Mm9Z8kVyYi_=s96-c', 'given_name': 'Colin', 'family_name': 'Xu', 'iat': 1745173924, 'exp': 1745177524, 'jti': '367eeeb9ec0afa05ea3e5d085194afa4472c477b'}}
+Google Auth login detected for colinxu2006@gmail.com
+Raw email: colinxu2006@gmail.com
+Original email: colinxu2006@gmail.com
+Normalized email: colinxu2006@gmail.com
+Processing login for email: colinxu2006@gmail.com (raw: colinxu2006@gmail.com)
+Checking if user exists in database with email: colinxu2006@gmail.com
+Found 1 matching users
+User found, updating last login time for: colinxu2006@gmail.com
+Update result: 1 documents modified
+Token verification failed: Token expired, 1745177524 < 1745261286
+Current user data: {'_id': ObjectId('67ec881987ffc7df66e7be1d'), 'email': 'colinxu2006@gmail.com', 'original_email': 'colinxu2006@gmail.com', 'created_at': 1743554585.1834931, 'last_login': 1745261286.8859944, 'is_gmail': True, 'google_auth_data': {'iss': 'https://accounts.google.com', 'azp': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'aud': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'sub': '105394218807155710548', 'email': 'colinxu2006@gmail.com', 'email_verified': True, 'nbf': 1745173624, 'name': 'Colin Xu', 'picture': 'https://lh3.googleusercontent.com/a/ACg8ocKsiJwk56lCjzn-9sEmOldrNo4z6AcWzhT739ok9Mm9Z8kVyYi_=s96-c', 'given_name': 'Colin', 'family_name': 'Xu', 'iat': 1745173924, 'exp': 1745177524, 'jti': '367eeeb9ec0afa05ea3e5d085194afa4472c477b'}, 'is_google_auth': True, 'name': 'Colin Xu', 'profile_picture': 'https://lh3.googleusercontent.com/a/ACg8ocKsiJwk56lCjzn-9sEmOldrNo4z6AcWzhT739ok9Mm9Z8kVyYi_=s96-c', 'phone_carrier': 'tmobile', 'phone_number': '3605253013', 'phone_verified': True, 'phone_verified_at': 1743897657.339128}
+Total users in database: 94
+Login successful!
+Token verification failed: Token expired, 1745177524 < 1745261288
+Token verification failed: Token expired, 1745177524 < 1745261288
+================================================
+LOGIN ENDPOINT CALLED - 2025-04-21 18:48:13
+================================================
+Received data: {'email': 'colinxu2006@gmail.com', 'original_email': 'colinxu2006@gmail.com', 'google_auth': True, 'user_data': {'iss': 'https://accounts.google.com', 'azp': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'aud': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'sub': '105394218807155710548', 'email': 'colinxu2006@gmail.com', 'email_verified': True, 'nbf': 1745173624, 'name': 'Colin Xu', 'picture': 'https://lh3.googleusercontent.com/a/ACg8ocKsiJwk56lCjzn-9sEmOldrNo4z6AcWzhT739ok9Mm9Z8kVyYi_=s96-c', 'given_name': 'Colin', 'family_name': 'Xu', 'iat': 1745173924, 'exp': 1745177524, 'jti': '367eeeb9ec0afa05ea3e5d085194afa4472c477b'}}
+Google Auth login detected for colinxu2006@gmail.com
+Raw email: colinxu2006@gmail.com
+Original email: colinxu2006@gmail.com
+Normalized email: colinxu2006@gmail.com
+Processing login for email: colinxu2006@gmail.com (raw: colinxu2006@gmail.com)
+Checking if user exists in database with email: colinxu2006@gmail.com
+Found 1 matching users
+User found, updating last login time for: colinxu2006@gmail.com
+Update result: 1 documents modified
+Current user data: {'_id': ObjectId('67ec881987ffc7df66e7be1d'), 'email': 'colinxu2006@gmail.com', 'original_email': 'colinxu2006@gmail.com', 'created_at': 1743554585.1834931, 'last_login': 1745261294.0165155, 'is_gmail': True, 'google_auth_data': {'iss': 'https://accounts.google.com', 'azp': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'aud': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'sub': '105394218807155710548', 'email': 'colinxu2006@gmail.com', 'email_verified': True, 'nbf': 1745173624, 'name': 'Colin Xu', 'picture': 'https://lh3.googleusercontent.com/a/ACg8ocKsiJwk56lCjzn-9sEmOldrNo4z6AcWzhT739ok9Mm9Z8kVyYi_=s96-c', 'given_name': 'Colin', 'family_name': 'Xu', 'iat': 1745173924, 'exp': 1745177524, 'jti': '367eeeb9ec0afa05ea3e5d085194afa4472c477b'}, 'is_google_auth': True, 'name': 'Colin Xu', 'profile_picture': 'https://lh3.googleusercontent.com/a/ACg8ocKsiJwk56lCjzn-9sEmOldrNo4z6AcWzhT739ok9Mm9Z8kVyYi_=s96-c', 'phone_carrier': 'tmobile', 'phone_number': '3605253013', 'phone_verified': True, 'phone_verified_at': 1743897657.339128}
+Total users in database: 94
+Login successful!
+Token verification failed: Token expired, 1745177524 < 1745261296
+Token verification failed: Token expired, 1745177524 < 1745261296
+Token verification failed: Token expired, 1745177524 < 1745261296
+Token verification failed: Token expired, 1745177524 < 1745261297
+No active CRNs to monitor. Waiting...
+================================================
+LOGIN ENDPOINT CALLED - 2025-04-21 18:49:01
+================================================
+Received data: {'email': 'kaudar123@gmail.com', 'original_email': 'kaudar123@gmail.com', 'google_auth': True, 'user_data': {'iss': 'https://accounts.google.com', 'azp': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'aud': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'sub': '106802500924015213904', 'email': 'kaudar123@gmail.com', 'email_verified': True, 'nbf': 1745258341, 'name': 'KauDar123', 'picture': 'https://lh3.googleusercontent.com/a/ACg8ocJyoFAxbk1lVvOEpMPEVd6dTETN9kz2VigpgXurhnEzWB0bSNVJ=s96-c', 'given_name': 'KauDar123', 'iat': 1745258641, 'exp': 1745262241, 'jti': 'e18a899cb84e9a3f83991c41d28d0ae1dc8397f8'}}
+127.0.0.1 - - [21/Apr/2025 18:49:01] "POST /api/users/login HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 18:49:02] "OPTIONS /api/status HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 18:49:02] "GET /api/status HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 18:49:07] "GET /api/professors/search?department=CSCEE&course_code=312&include_galveston=false HTTP/1.0" 401 -
+127.0.0.1 - - [21/Apr/2025 18:49:10] "GET /api/professors/search?department=CSCE&course_code=312&include_galveston=false HTTP/1.0" 401 -
+127.0.0.1 - - [21/Apr/2025 18:49:27] "OPTIONS /api/users/login HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 18:49:27] "OPTIONS /api/status HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 18:49:27] "GET /api/status HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 18:49:27] "POST /api/users/login HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 18:49:29] "GET /api/professors/search?department=&course_code=&include_galveston=false HTTP/1.0" 401 -
+127.0.0.1 - - [21/Apr/2025 18:49:37] "GET /api/professors/search?department=CSCE&course_code=312&include_galveston=false HTTP/1.0" 401 -
+127.0.0.1 - - [21/Apr/2025 18:50:56] "OPTIONS /api/users/login HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 18:50:56] "OPTIONS /api/status HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 18:50:56] "GET /api/status HTTP/1.0" 401 -
+127.0.0.1 - - [21/Apr/2025 18:50:56] "POST /api/users/login HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 18:51:00] "OPTIONS /api/alerts/by-email/colinxu2006@gmail.com HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 18:51:00] "OPTIONS /api/users/profile?email=colinxu2006@gmail.com HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 18:51:00] "GET /api/users/profile?email=colinxu2006@gmail.com HTTP/1.0" 401 -
+127.0.0.1 - - [21/Apr/2025 18:51:00] "GET /api/alerts/by-email/colinxu2006@gmail.com HTTP/1.0" 401 -
+127.0.0.1 - - [21/Apr/2025 18:51:18] "OPTIONS /api/status HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 18:51:18] "GET /api/status HTTP/1.0" 401 -
+127.0.0.1 - - [21/Apr/2025 18:51:19] "OPTIONS /api/alerts/by-email/colinxu2006@gmail.com HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 18:51:19] "OPTIONS /api/users/profile?email=colinxu2006@gmail.com HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 18:51:19] "GET /api/alerts/by-email/colinxu2006@gmail.com HTTP/1.0" 401 -
+127.0.0.1 - - [21/Apr/2025 18:51:19] "GET /api/users/profile?email=colinxu2006@gmail.com HTTP/1.0" 401 -
+127.0.0.1 - - [21/Apr/2025 18:51:20] "GET /api/status HTTP/1.0" 401 -
+127.0.0.1 - - [21/Apr/2025 18:51:24] "OPTIONS /api/alerts/by-email/colinxu2006@gmail.com HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 18:51:24] "OPTIONS /api/users/profile?email=colinxu2006@gmail.com HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 18:51:24] "GET /api/users/profile?email=colinxu2006@gmail.com HTTP/1.0" 401 -
+127.0.0.1 - - [21/Apr/2025 18:51:24] "GET /api/alerts/by-email/colinxu2006@gmail.com HTTP/1.0" 401 -
+127.0.0.1 - - [21/Apr/2025 18:51:32] "OPTIONS /api/status HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 18:51:32] "GET /api/status HTTP/1.0" 401 -
+127.0.0.1 - - [21/Apr/2025 18:51:32] "OPTIONS /api/alerts/by-email/colinxu2006@gmail.com HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 18:51:32] "OPTIONS /api/users/profile?email=colinxu2006@gmail.com HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 18:51:32] "GET /api/alerts/by-email/colinxu2006@gmail.com HTTP/1.0" 401 -
+127.0.0.1 - - [21/Apr/2025 18:51:32] "GET /api/users/profile?email=colinxu2006@gmail.com HTTP/1.0" 401 -
+127.0.0.1 - - [21/Apr/2025 18:58:04] "OPTIONS /api/status HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 18:58:04] "GET /api/status HTTP/1.0" 401 -
+127.0.0.1 - - [21/Apr/2025 18:58:04] "OPTIONS /api/alerts/by-email/colinxu2006@gmail.com HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 18:58:04] "OPTIONS /api/users/profile?email=colinxu2006@gmail.com HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 18:58:04] "GET /api/alerts/by-email/colinxu2006@gmail.com HTTP/1.0" 401 -
+127.0.0.1 - - [21/Apr/2025 18:58:04] "GET /api/users/profile?email=colinxu2006@gmail.com HTTP/1.0" 401 -
+127.0.0.1 - - [21/Apr/2025 18:58:05] "GET /api/status HTTP/1.0" 401 -
+127.0.0.1 - - [21/Apr/2025 18:58:06] "OPTIONS /api/users/login HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 18:58:06] "GET /api/status HTTP/1.0" 401 -
+Google Auth login detected for kaudar123@gmail.com
+Raw email: kaudar123@gmail.com
+Original email: kaudar123@gmail.com
+Normalized email: kaudar123@gmail.com
+Processing login for email: kaudar123@gmail.com (raw: kaudar123@gmail.com)
+Checking if user exists in database with email: kaudar123@gmail.com
+Found 1 matching users
+User found, updating last login time for: kaudar123@gmail.com
+Update result: 1 documents modified
+Current user data: {'_id': ObjectId('67ed683ed476cd13849f4862'), 'email': 'kaudar123@gmail.com', 'original_email': 'kaudar123@gmail.com', 'created_at': 1743611966.109906, 'last_login': 1745261341.7316694, 'is_google_auth': True, 'google_auth_data': {'iss': 'https://accounts.google.com', 'azp': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'aud': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'sub': '106802500924015213904', 'email': 'kaudar123@gmail.com', 'email_verified': True, 'nbf': 1745258341, 'name': 'KauDar123', 'picture': 'https://lh3.googleusercontent.com/a/ACg8ocJyoFAxbk1lVvOEpMPEVd6dTETN9kz2VigpgXurhnEzWB0bSNVJ=s96-c', 'given_name': 'KauDar123', 'iat': 1745258641, 'exp': 1745262241, 'jti': 'e18a899cb84e9a3f83991c41d28d0ae1dc8397f8'}, 'name': 'KauDar123', 'profile_picture': 'https://lh3.googleusercontent.com/a/ACg8ocJyoFAxbk1lVvOEpMPEVd6dTETN9kz2VigpgXurhnEzWB0bSNVJ=s96-c', 'phone_carrier': 'tmobile', 'phone_number': '5125665282', 'phone_verified': True, 'phone_verified_at': 1744240385.6286035}
+Total users in database: 94
+Login successful!
+================================================
+LOGIN ENDPOINT CALLED - 2025-04-21 18:49:27
+================================================
+Received data: {'email': 'kaudar123@gmail.com', 'original_email': 'kaudar123@gmail.com', 'google_auth': True, 'user_data': {'iss': 'https://accounts.google.com', 'azp': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'aud': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'sub': '106802500924015213904', 'email': 'kaudar123@gmail.com', 'email_verified': True, 'nbf': 1745258341, 'name': 'KauDar123', 'picture': 'https://lh3.googleusercontent.com/a/ACg8ocJyoFAxbk1lVvOEpMPEVd6dTETN9kz2VigpgXurhnEzWB0bSNVJ=s96-c', 'given_name': 'KauDar123', 'iat': 1745258641, 'exp': 1745262241, 'jti': 'e18a899cb84e9a3f83991c41d28d0ae1dc8397f8'}}
+Google Auth login detected for kaudar123@gmail.com
+Raw email: kaudar123@gmail.com
+Original email: kaudar123@gmail.com
+Normalized email: kaudar123@gmail.com
+Processing login for email: kaudar123@gmail.com (raw: kaudar123@gmail.com)
+Checking if user exists in database with email: kaudar123@gmail.com
+Found 1 matching users
+User found, updating last login time for: kaudar123@gmail.com
+Update result: 1 documents modified
+Current user data: {'_id': ObjectId('67ed683ed476cd13849f4862'), 'email': 'kaudar123@gmail.com', 'original_email': 'kaudar123@gmail.com', 'created_at': 1743611966.109906, 'last_login': 1745261367.7197504, 'is_google_auth': True, 'google_auth_data': {'iss': 'https://accounts.google.com', 'azp': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'aud': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'sub': '106802500924015213904', 'email': 'kaudar123@gmail.com', 'email_verified': True, 'nbf': 1745258341, 'name': 'KauDar123', 'picture': 'https://lh3.googleusercontent.com/a/ACg8ocJyoFAxbk1lVvOEpMPEVd6dTETN9kz2VigpgXurhnEzWB0bSNVJ=s96-c', 'given_name': 'KauDar123', 'iat': 1745258641, 'exp': 1745262241, 'jti': 'e18a899cb84e9a3f83991c41d28d0ae1dc8397f8'}, 'name': 'KauDar123', 'profile_picture': 'https://lh3.googleusercontent.com/a/ACg8ocJyoFAxbk1lVvOEpMPEVd6dTETN9kz2VigpgXurhnEzWB0bSNVJ=s96-c', 'phone_carrier': 'tmobile', 'phone_number': '5125665282', 'phone_verified': True, 'phone_verified_at': 1744240385.6286035}
+Total users in database: 94
+Login successful!
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+================================================
+LOGIN ENDPOINT CALLED - 2025-04-21 18:50:56
+================================================
+Received data: {'email': 'colinxu2006@gmail.com', 'original_email': 'colinxu2006@gmail.com', 'google_auth': True, 'user_data': {'iss': 'https://accounts.google.com', 'azp': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'aud': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'sub': '105394218807155710548', 'email': 'colinxu2006@gmail.com', 'email_verified': True, 'nbf': 1745173624, 'name': 'Colin Xu', 'picture': 'https://lh3.googleusercontent.com/a/ACg8ocKsiJwk56lCjzn-9sEmOldrNo4z6AcWzhT739ok9Mm9Z8kVyYi_=s96-c', 'given_name': 'Colin', 'family_name': 'Xu', 'iat': 1745173924, 'exp': 1745177524, 'jti': '367eeeb9ec0afa05ea3e5d085194afa4472c477b'}}
+Google Auth login detected for colinxu2006@gmail.com
+Raw email: colinxu2006@gmail.com
+Original email: colinxu2006@gmail.com
+Normalized email: colinxu2006@gmail.com
+Processing login for email: colinxu2006@gmail.com (raw: colinxu2006@gmail.com)
+Checking if user exists in database with email: colinxu2006@gmail.com
+Found 1 matching users
+User found, updating last login time for: colinxu2006@gmail.com
+Update result: 1 documents modified
+Token verification failed: Token expired, 1745177524 < 1745261456
+Current user data: {'_id': ObjectId('67ec881987ffc7df66e7be1d'), 'email': 'colinxu2006@gmail.com', 'original_email': 'colinxu2006@gmail.com', 'created_at': 1743554585.1834931, 'last_login': 1745261456.6852024, 'is_gmail': True, 'google_auth_data': {'iss': 'https://accounts.google.com', 'azp': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'aud': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'sub': '105394218807155710548', 'email': 'colinxu2006@gmail.com', 'email_verified': True, 'nbf': 1745173624, 'name': 'Colin Xu', 'picture': 'https://lh3.googleusercontent.com/a/ACg8ocKsiJwk56lCjzn-9sEmOldrNo4z6AcWzhT739ok9Mm9Z8kVyYi_=s96-c', 'given_name': 'Colin', 'family_name': 'Xu', 'iat': 1745173924, 'exp': 1745177524, 'jti': '367eeeb9ec0afa05ea3e5d085194afa4472c477b'}, 'is_google_auth': True, 'name': 'Colin Xu', 'profile_picture': 'https://lh3.googleusercontent.com/a/ACg8ocKsiJwk56lCjzn-9sEmOldrNo4z6AcWzhT739ok9Mm9Z8kVyYi_=s96-c', 'phone_carrier': 'tmobile', 'phone_number': '3605253013', 'phone_verified': True, 'phone_verified_at': 1743897657.339128}
+Total users in database: 94
+Login successful!
+Token verification failed: Token expired, 1745177524 < 1745261460
+Token verification failed: Token expired, 1745177524 < 1745261460
+Token verification failed: Token expired, 1745177524 < 1745261478
+Token verification failed: Token expired, 1745177524 < 1745261479
+Token verification failed: Token expired, 1745177524 < 1745261479
+Token verification failed: Token expired, 1745177524 < 1745261480
+Token verification failed: Token expired, 1745177524 < 1745261484
+Token verification failed: Token expired, 1745177524 < 1745261484
+No active CRNs to monitor. Waiting...
+Token verification failed: Token expired, 1745177524 < 1745261492
+Token verification failed: Token expired, 1745177524 < 1745261492
+Token verification failed: Token expired, 1745177524 < 1745261492
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+Token verification failed: Token expired, 1745177524 < 1745261884
+Token verification failed: Token expired, 1745177524 < 1745261884
+Token verification failed: Token expired, 1745177524 < 1745261884
+Token verification failed: Token expired, 1745177524 < 1745261885
+Token verification failed: Token expired, 1745177524 < 1745261886
+================================================
+LOGIN ENDPOINT CALLED - 2025-04-21 18:58:06
+================================================
+127.0.0.1 - - [21/Apr/2025 18:58:06] "POST /api/users/login HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 18:58:07] "GET /api/status HTTP/1.0" 401 -
+127.0.0.1 - - [21/Apr/2025 18:58:07] "POST /api/users/login HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 18:58:13] "OPTIONS /api/users/login HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 18:58:13] "OPTIONS /api/status HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 18:58:13] "GET /api/status HTTP/1.0" 401 -
+127.0.0.1 - - [21/Apr/2025 18:58:13] "POST /api/users/login HTTP/1.0" 200 -
+Received data: {'email': 'colinxu2006@gmail.com', 'original_email': 'colinxu2006@gmail.com', 'google_auth': True, 'user_data': {'iss': 'https://accounts.google.com', 'azp': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'aud': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'sub': '105394218807155710548', 'email': 'colinxu2006@gmail.com', 'email_verified': True, 'nbf': 1745173624, 'name': 'Colin Xu', 'picture': 'https://lh3.googleusercontent.com/a/ACg8ocKsiJwk56lCjzn-9sEmOldrNo4z6AcWzhT739ok9Mm9Z8kVyYi_=s96-c', 'given_name': 'Colin', 'family_name': 'Xu', 'iat': 1745173924, 'exp': 1745177524, 'jti': '367eeeb9ec0afa05ea3e5d085194afa4472c477b'}}
+Google Auth login detected for colinxu2006@gmail.com
+Raw email: colinxu2006@gmail.com
+Original email: colinxu2006@gmail.com
+Normalized email: colinxu2006@gmail.com
+Processing login for email: colinxu2006@gmail.com (raw: colinxu2006@gmail.com)
+Checking if user exists in database with email: colinxu2006@gmail.com
+Found 1 matching users
+User found, updating last login time for: colinxu2006@gmail.com
+Update result: 1 documents modified
+Current user data: {'_id': ObjectId('67ec881987ffc7df66e7be1d'), 'email': 'colinxu2006@gmail.com', 'original_email': 'colinxu2006@gmail.com', 'created_at': 1743554585.1834931, 'last_login': 1745261886.715931, 'is_gmail': True, 'google_auth_data': {'iss': 'https://accounts.google.com', 'azp': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'aud': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'sub': '105394218807155710548', 'email': 'colinxu2006@gmail.com', 'email_verified': True, 'nbf': 1745173624, 'name': 'Colin Xu', 'picture': 'https://lh3.googleusercontent.com/a/ACg8ocKsiJwk56lCjzn-9sEmOldrNo4z6AcWzhT739ok9Mm9Z8kVyYi_=s96-c', 'given_name': 'Colin', 'family_name': 'Xu', 'iat': 1745173924, 'exp': 1745177524, 'jti': '367eeeb9ec0afa05ea3e5d085194afa4472c477b'}, 'is_google_auth': True, 'name': 'Colin Xu', 'profile_picture': 'https://lh3.googleusercontent.com/a/ACg8ocKsiJwk56lCjzn-9sEmOldrNo4z6AcWzhT739ok9Mm9Z8kVyYi_=s96-c', 'phone_carrier': 'tmobile', 'phone_number': '3605253013', 'phone_verified': True, 'phone_verified_at': 1743897657.339128}
+Total users in database: 94
+Login successful!
+================================================
+LOGIN ENDPOINT CALLED - 2025-04-21 18:58:07
+================================================
+Received data: {'email': 'colinxu2006@gmail.com', 'original_email': 'colinxu2006@gmail.com', 'google_auth': True, 'user_data': {'iss': 'https://accounts.google.com', 'azp': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'aud': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'sub': '105394218807155710548', 'email': 'colinxu2006@gmail.com', 'email_verified': True, 'nbf': 1745173624, 'name': 'Colin Xu', 'picture': 'https://lh3.googleusercontent.com/a/ACg8ocKsiJwk56lCjzn-9sEmOldrNo4z6AcWzhT739ok9Mm9Z8kVyYi_=s96-c', 'given_name': 'Colin', 'family_name': 'Xu', 'iat': 1745173924, 'exp': 1745177524, 'jti': '367eeeb9ec0afa05ea3e5d085194afa4472c477b'}}
+Google Auth login detected for colinxu2006@gmail.com
+Raw email: colinxu2006@gmail.com
+Original email: colinxu2006@gmail.com
+Normalized email: colinxu2006@gmail.com
+Processing login for email: colinxu2006@gmail.com (raw: colinxu2006@gmail.com)
+Checking if user exists in database with email: colinxu2006@gmail.com
+Found 1 matching users
+User found, updating last login time for: colinxu2006@gmail.com
+Update result: 1 documents modified
+Token verification failed: Token expired, 1745177524 < 1745261887
+Current user data: {'_id': ObjectId('67ec881987ffc7df66e7be1d'), 'email': 'colinxu2006@gmail.com', 'original_email': 'colinxu2006@gmail.com', 'created_at': 1743554585.1834931, 'last_login': 1745261887.2339165, 'is_gmail': True, 'google_auth_data': {'iss': 'https://accounts.google.com', 'azp': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'aud': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'sub': '105394218807155710548', 'email': 'colinxu2006@gmail.com', 'email_verified': True, 'nbf': 1745173624, 'name': 'Colin Xu', 'picture': 'https://lh3.googleusercontent.com/a/ACg8ocKsiJwk56lCjzn-9sEmOldrNo4z6AcWzhT739ok9Mm9Z8kVyYi_=s96-c', 'given_name': 'Colin', 'family_name': 'Xu', 'iat': 1745173924, 'exp': 1745177524, 'jti': '367eeeb9ec0afa05ea3e5d085194afa4472c477b'}, 'is_google_auth': True, 'name': 'Colin Xu', 'profile_picture': 'https://lh3.googleusercontent.com/a/ACg8ocKsiJwk56lCjzn-9sEmOldrNo4z6AcWzhT739ok9Mm9Z8kVyYi_=s96-c', 'phone_carrier': 'tmobile', 'phone_number': '3605253013', 'phone_verified': True, 'phone_verified_at': 1743897657.339128}
+Total users in database: 94
+Login successful!
+================================================
+LOGIN ENDPOINT CALLED - 2025-04-21 18:58:13
+================================================
+Received data: {'email': 'colinxu2006@gmail.com', 'original_email': 'colinxu2006@gmail.com', 'google_auth': True, 'user_data': {'iss': 'https://accounts.google.com', 'azp': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'aud': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'sub': '105394218807155710548', 'email': 'colinxu2006@gmail.com', 'email_verified': True, 'nbf': 1745173624, 'name': 'Colin Xu', 'picture': 'https://lh3.googleusercontent.com/a/ACg8ocKsiJwk56lCjzn-9sEmOldrNo4z6AcWzhT739ok9Mm9Z8kVyYi_=s96-c', 'given_name': 'Colin', 'family_name': 'Xu', 'iat': 1745173924, 'exp': 1745177524, 'jti': '367eeeb9ec0afa05ea3e5d085194afa4472c477b'}}
+Google Auth login detected for colinxu2006@gmail.com
+Raw email: colinxu2006@gmail.com
+Original email: colinxu2006@gmail.com
+Normalized email: colinxu2006@gmail.com
+Processing login for email: colinxu2006@gmail.com (raw: colinxu2006@gmail.com)
+Checking if user exists in database with email: colinxu2006@gmail.com
+Found 1 matching users
+User found, updating last login time for: colinxu2006@gmail.com
+Update result: 1 documents modified
+Current user data: {'_id': ObjectId('67ec881987ffc7df66e7be1d'), 'email': 'colinxu2006@gmail.com', 'original_email': 'colinxu2006@gmail.com', 'created_at': 1743554585.1834931, 'last_login': 1745261893.4570246, 'is_gmail': True, 'google_auth_data': {'iss': 'https://accounts.google.com', 'azp': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'aud': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'sub': '105394218807155710548', 'email': 'colinxu2006@gmail.com', 'email_verified': True, 'nbf': 1745173624, 'name': 'Colin Xu', 'picture': 'https://lh3.googleusercontent.com/a/ACg8ocKsiJwk56lCjzn-9sEmOldrNo4z6AcWzhT739ok9Mm9Z8kVyYi_=s96-c', 'given_name': 'Colin', 'family_name': 'Xu', 'iat': 1745173924, 'exp': 1745177524, 'jti': '367eeeb9ec0afa05ea3e5d085194afa4472c477b'}, 'is_google_auth': True, 'name': 'Colin Xu', 'profile_picture': 'https://lh3.googleusercontent.com/a/ACg8ocKsiJwk56lCjzn-9sEmOldrNo4z6AcWzhT739ok9Mm9Z8kVyYi_=s96-c', 'phone_carrier': 'tmobile', 'phone_number': '3605253013', 'phone_verified': True, 'phone_verified_at': 1743897657.339128}
+Token verification failed: Token expired, 1745177524 < 1745261893
+Total users in database: 94
+Login successful!
+================================================
+LOGIN ENDPOINT CALLED - 2025-04-21 18:58:14
+================================================
+Received data: {'email': 'colinxu2006@gmail.com', 'original_email': 'colinxu2006@gmail.com', 'google_auth': True, 'user_data': {'iss': 'https://accounts.google.com', 'azp': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'aud': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'sub': '105394218807155710548', 'email': 'colinxu2006@gmail.com', 'email_verified': True, 'nbf': 1745173624, 'name': 'Colin Xu', 'picture': 'https://lh3.googleusercontent.com/a/ACg8ocKsiJwk56lCjzn-9sEmOldrNo4z6AcWzhT739ok9Mm9Z8kVyYi_=s96-c', 'given_name': 'Colin', 'family_name': 'Xu', 'iat': 1745173924, 'exp': 1745177524, 'jti': '367eeeb9ec0afa05ea3e5d085194afa4472c477b'}}
+127.0.0.1 - - [21/Apr/2025 18:58:14] "GET /api/status HTTP/1.0" 401 -
+127.0.0.1 - - [21/Apr/2025 18:58:14] "POST /api/users/login HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 19:06:43] "OPTIONS /api/users/login HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 19:06:43] "POST /api/users/login HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 19:06:44] "OPTIONS /api/status HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 19:06:44] "GET /api/status HTTP/1.0" 401 -
+127.0.0.1 - - [21/Apr/2025 19:26:37] "OPTIONS /api/users/login HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 19:26:37] "POST /api/users/login HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 19:26:38] "OPTIONS /api/status HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 19:26:39] "GET /api/status HTTP/1.0" 401 -
+127.0.0.1 - - [21/Apr/2025 19:26:39] "OPTIONS /api/alerts/by-email/colinxu2006@gmail.com HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 19:26:39] "OPTIONS /api/users/profile?email=colinxu2006@gmail.com HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 19:26:40] "GET /api/alerts/by-email/colinxu2006@gmail.com HTTP/1.0" 401 -
+127.0.0.1 - - [21/Apr/2025 19:26:40] "GET /api/users/profile?email=colinxu2006@gmail.com HTTP/1.0" 401 -
+127.0.0.1 - - [21/Apr/2025 19:26:40] "GET /api/status HTTP/1.0" 401 -
+Google Auth login detected for colinxu2006@gmail.com
+Raw email: colinxu2006@gmail.com
+Original email: colinxu2006@gmail.com
+Normalized email: colinxu2006@gmail.com
+Processing login for email: colinxu2006@gmail.com (raw: colinxu2006@gmail.com)
+Checking if user exists in database with email: colinxu2006@gmail.com
+Found 1 matching users
+User found, updating last login time for: colinxu2006@gmail.com
+Update result: 1 documents modified
+Token verification failed: Token expired, 1745177524 < 1745261894
+Current user data: {'_id': ObjectId('67ec881987ffc7df66e7be1d'), 'email': 'colinxu2006@gmail.com', 'original_email': 'colinxu2006@gmail.com', 'created_at': 1743554585.1834931, 'last_login': 1745261894.1934304, 'is_gmail': True, 'google_auth_data': {'iss': 'https://accounts.google.com', 'azp': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'aud': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'sub': '105394218807155710548', 'email': 'colinxu2006@gmail.com', 'email_verified': True, 'nbf': 1745173624, 'name': 'Colin Xu', 'picture': 'https://lh3.googleusercontent.com/a/ACg8ocKsiJwk56lCjzn-9sEmOldrNo4z6AcWzhT739ok9Mm9Z8kVyYi_=s96-c', 'given_name': 'Colin', 'family_name': 'Xu', 'iat': 1745173924, 'exp': 1745177524, 'jti': '367eeeb9ec0afa05ea3e5d085194afa4472c477b'}, 'is_google_auth': True, 'name': 'Colin Xu', 'profile_picture': 'https://lh3.googleusercontent.com/a/ACg8ocKsiJwk56lCjzn-9sEmOldrNo4z6AcWzhT739ok9Mm9Z8kVyYi_=s96-c', 'phone_carrier': 'tmobile', 'phone_number': '3605253013', 'phone_verified': True, 'phone_verified_at': 1743897657.339128}
+Total users in database: 94
+Login successful!
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+================================================
+LOGIN ENDPOINT CALLED - 2025-04-21 19:06:43
+================================================
+Received data: {'email': 'colinxu2006@gmail.com', 'original_email': 'colinxu2006@gmail.com', 'google_auth': True, 'user_data': {'iss': 'https://accounts.google.com', 'azp': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'aud': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'sub': '105394218807155710548', 'email': 'colinxu2006@gmail.com', 'email_verified': True, 'nbf': 1745173624, 'name': 'Colin Xu', 'picture': 'https://lh3.googleusercontent.com/a/ACg8ocKsiJwk56lCjzn-9sEmOldrNo4z6AcWzhT739ok9Mm9Z8kVyYi_=s96-c', 'given_name': 'Colin', 'family_name': 'Xu', 'iat': 1745173924, 'exp': 1745177524, 'jti': '367eeeb9ec0afa05ea3e5d085194afa4472c477b'}}
+Google Auth login detected for colinxu2006@gmail.com
+Raw email: colinxu2006@gmail.com
+Original email: colinxu2006@gmail.com
+Normalized email: colinxu2006@gmail.com
+Processing login for email: colinxu2006@gmail.com (raw: colinxu2006@gmail.com)
+Checking if user exists in database with email: colinxu2006@gmail.com
+Found 1 matching users
+User found, updating last login time for: colinxu2006@gmail.com
+Update result: 1 documents modified
+Current user data: {'_id': ObjectId('67ec881987ffc7df66e7be1d'), 'email': 'colinxu2006@gmail.com', 'original_email': 'colinxu2006@gmail.com', 'created_at': 1743554585.1834931, 'last_login': 1745262403.2236578, 'is_gmail': True, 'google_auth_data': {'iss': 'https://accounts.google.com', 'azp': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'aud': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'sub': '105394218807155710548', 'email': 'colinxu2006@gmail.com', 'email_verified': True, 'nbf': 1745173624, 'name': 'Colin Xu', 'picture': 'https://lh3.googleusercontent.com/a/ACg8ocKsiJwk56lCjzn-9sEmOldrNo4z6AcWzhT739ok9Mm9Z8kVyYi_=s96-c', 'given_name': 'Colin', 'family_name': 'Xu', 'iat': 1745173924, 'exp': 1745177524, 'jti': '367eeeb9ec0afa05ea3e5d085194afa4472c477b'}, 'is_google_auth': True, 'name': 'Colin Xu', 'profile_picture': 'https://lh3.googleusercontent.com/a/ACg8ocKsiJwk56lCjzn-9sEmOldrNo4z6AcWzhT739ok9Mm9Z8kVyYi_=s96-c', 'phone_carrier': 'tmobile', 'phone_number': '3605253013', 'phone_verified': True, 'phone_verified_at': 1743897657.339128}
+Total users in database: 94
+Login successful!
+Token verification failed: Token expired, 1745177524 < 1745262404
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+================================================
+LOGIN ENDPOINT CALLED - 2025-04-21 19:26:37
+================================================
+Received data: {'email': 'colinxu2006@gmail.com', 'original_email': 'colinxu2006@gmail.com', 'google_auth': True, 'user_data': {'iss': 'https://accounts.google.com', 'azp': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'aud': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'sub': '105394218807155710548', 'email': 'colinxu2006@gmail.com', 'email_verified': True, 'nbf': 1745173624, 'name': 'Colin Xu', 'picture': 'https://lh3.googleusercontent.com/a/ACg8ocKsiJwk56lCjzn-9sEmOldrNo4z6AcWzhT739ok9Mm9Z8kVyYi_=s96-c', 'given_name': 'Colin', 'family_name': 'Xu', 'iat': 1745173924, 'exp': 1745177524, 'jti': '367eeeb9ec0afa05ea3e5d085194afa4472c477b'}}
+Google Auth login detected for colinxu2006@gmail.com
+Raw email: colinxu2006@gmail.com
+Original email: colinxu2006@gmail.com
+Normalized email: colinxu2006@gmail.com
+Processing login for email: colinxu2006@gmail.com (raw: colinxu2006@gmail.com)
+Checking if user exists in database with email: colinxu2006@gmail.com
+Found 1 matching users
+User found, updating last login time for: colinxu2006@gmail.com
+Update result: 1 documents modified
+Current user data: {'_id': ObjectId('67ec881987ffc7df66e7be1d'), 'email': 'colinxu2006@gmail.com', 'original_email': 'colinxu2006@gmail.com', 'created_at': 1743554585.1834931, 'last_login': 1745263597.6848795, 'is_gmail': True, 'google_auth_data': {'iss': 'https://accounts.google.com', 'azp': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'aud': '76395303091-hn56cbkb13d3eo431384hmvksn52lrt2.apps.googleusercontent.com', 'sub': '105394218807155710548', 'email': 'colinxu2006@gmail.com', 'email_verified': True, 'nbf': 1745173624, 'name': 'Colin Xu', 'picture': 'https://lh3.googleusercontent.com/a/ACg8ocKsiJwk56lCjzn-9sEmOldrNo4z6AcWzhT739ok9Mm9Z8kVyYi_=s96-c', 'given_name': 'Colin', 'family_name': 'Xu', 'iat': 1745173924, 'exp': 1745177524, 'jti': '367eeeb9ec0afa05ea3e5d085194afa4472c477b'}, 'is_google_auth': True, 'name': 'Colin Xu', 'profile_picture': 'https://lh3.googleusercontent.com/a/ACg8ocKsiJwk56lCjzn-9sEmOldrNo4z6AcWzhT739ok9Mm9Z8kVyYi_=s96-c', 'phone_carrier': 'tmobile', 'phone_number': '3605253013', 'phone_verified': True, 'phone_verified_at': 1743897657.339128}
+Total users in database: 94
+Login successful!
+Token verification failed: Token expired, 1745177524 < 1745263599
+Token verification failed: Token expired, 1745177524 < 1745263600
+Token verification failed: Token expired, 1745177524 < 1745263600
+Token verification failed: Token expired, 1745177524 < 1745263600
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+No active CRNs to monitor. Waiting...
+127.0.0.1 - - [21/Apr/2025 19:38:42] "OPTIONS /api/users/login HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 19:38:42] "POST /api/users/login HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 19:38:44] "OPTIONS /api/status HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 19:38:44] "GET /api/status HTTP/1.0" 401 -
+127.0.0.1 - - [21/Apr/2025 19:38:44] "OPTIONS /api/alerts/by-email/colinxu2006@gmail.com HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 19:38:44] "OPTIONS /api/users/profile?email=colinxu2006@gmail.com HTTP/1.0" 200 -
+127.0.0.1 - - [21/Apr/2025 19:38:44] "GET /api/alerts/by-email/colinxu2006@gmail.com HTTP/1.0" 401 -
+127.0.0.1 - - [21/Apr/2025 19:38:44] "GET /api/users/profile?email=colinxu2006@gmail.com HTTP/1.0" 401 -

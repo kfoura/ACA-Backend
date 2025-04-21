@@ -13,13 +13,15 @@ from flask_cors import CORS, cross_origin
 import threading
 from flask_mail import Mail, Message
 from email.message import EmailMessage
-
+from functools import wraps
 import re
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 import anex  # Import the anex module
 import random
+from google.oauth2 import id_token
+from google.auth.transport import requests as google_requests
 try:
     import RMP   # Import the RMP module
     print("Successfully imported RMP module")
@@ -33,8 +35,11 @@ print("ENDPOINTS.PY IS BEING USED")
 
 load_dotenv()
 
+VALID_API_KEY = os.getenv("API_KEY")
 sender_email = os.getenv('sender_email')
 password = os.getenv('password')
+GOOGLE_CLIENT_ID = os.getenv("GOOGLE_CLIENT_ID")
+
 
 # Debug missing credentials
 print(f"Email credentials loaded - Sender: {sender_email}, Password: {'******' if password else None}")
@@ -47,6 +52,37 @@ db = client['AggieClassAlert']
 collection = db['CRNS']
 email_collection = db['Emails']  # New collection for emails
 users_collection = db['Users']   # Collection for user accounts
+
+def require_api_key(view_function):
+    @wraps(view_function)
+    def decorated_function(*args, **kwargs):
+        provided_key = request.headers.get('x-api-key')
+        if provided_key != VALID_API_KEY:
+            return jsonify({'error': 'Unauthorized - invalid API key'}), 401
+        return view_function(*args, **kwargs)
+    return decorated_function
+
+def require_google_auth(view_func):
+    @wraps(view_func)
+    def wrapper(*args, **kwargs):
+        auth_header = request.headers.get("Authorization")
+        if not auth_header or not auth_header.startswith("Bearer "):
+            return jsonify({'error': 'Unauthorized - no token provided'}), 401
+        
+        token = auth_header.split(" ")[1]
+        try:
+            id_info = id_token.verify_oauth2_token(token, google_requests.Request(), GOOGLE_CLIENT_ID)
+            request.user_email = id_info['email']
+            request.google_user = id_info
+        except Exception as e:
+            print(f"Token verification failed: {e}")
+            return jsonify({'error': 'Unauthorized - invalid token'}), 401
+    
+        return view_func(*args, **kwargs)
+    
+    return wrapper
+    
+
 
 # Create indexes for faster queries
 try:
@@ -67,33 +103,33 @@ running = True
 # Create Flask app
 app = Flask(__name__)
 # Configure CORS properly to allow requests from localhost:3000
-CORS(app, origins=["http://localhost:3001", "https://aggieclassalert.com"], supports_credentials=True, 
-     allow_headers=["Content-Type", "Authorization"], methods=["GET", "POST", "OPTIONS", "DELETE"])
+CORS(app, origins=["https://aggieclassalert.com"], supports_credentials=True, 
+     allow_headers=["Content-Type", "Authorization", "x-api-key"], methods=["GET", "POST", "OPTIONS", "DELETE"])
 
-# Add OPTIONS routes for each endpoint for preflight requests
-@app.route('/api/add-alert', methods=['OPTIONS'])
-def handle_options():
-    return '', 200
+# # Add OPTIONS routes for each endpoint for preflight requests
+# @app.route('/api/add-alert', methods=['OPTIONS'])
+# def handle_options():
+#     return '', 200
 
-@app.route('/api/alerts', methods=['OPTIONS'])
-def handle_alerts_options():
-    return '', 200
+# @app.route('/api/alerts', methods=['OPTIONS'])
+# def handle_alerts_options():
+#     return '', 200
 
-@app.route('/api/sample-crns', methods=['OPTIONS'])
-def handle_sample_crns_options():
-    return '', 200
+# @app.route('/api/sample-crns', methods=['OPTIONS'])
+# def handle_sample_crns_options():
+#     return '', 200
 
-@app.route('/api/emails', methods=['OPTIONS'])
-def handle_emails_options():
-    return '', 200
+# @app.route('/api/emails', methods=['OPTIONS'])
+# def handle_emails_options():
+#     return '', 200
 
-@app.route('/api/alerts/by-email/<email>', methods=['OPTIONS'])
-def handle_alerts_by_email_options(email):
-    return '', 200
+# @app.route('/api/alerts/by-email/<email>', methods=['OPTIONS'])
+# def handle_alerts_by_email_options(email):
+#     return '', 200
 
-@app.route('/api/professors', methods=['OPTIONS'])
-def handle_professors_options():
-    return '', 200
+# @app.route('/api/professors', methods=['OPTIONS'])
+# def handle_professors_options():
+#     return '', 200
 
 def signal_handler(sig, frame):
     """Handle keyboard interrupts gracefully"""
@@ -114,6 +150,7 @@ def normalize_email(email):
     return email
 
 @app.route('/api/add-alert', methods=['POST'])
+@require_google_auth
 def add_alert():
     """API endpoint to add a new CRN to monitor"""
     data = request.json
@@ -351,12 +388,14 @@ def add_alert():
         return jsonify({'error': f"An error occurred: {str(e)}"}), 500
 
 @app.route('/api/emails', methods=['GET'])
+@require_google_auth
 def get_emails():
     """API endpoint to get all registered emails"""
     emails = list(email_collection.find({'active': True}, {'_id': 0}))
     return jsonify(emails), 200
 
 @app.route('/api/alerts/delete', methods=['DELETE'])
+@require_google_auth
 def delete_alert():
     '''API endpoint to permenantly delete a CRN alert.'''
     data = request.json
@@ -383,6 +422,7 @@ def delete_alert():
         
 
 @app.route('/api/alerts/by-email/<email>', methods=['GET'])
+@require_google_auth
 def get_alerts_by_email(email):
     """API endpoint to get all alerts for a specific email"""
     # Normalize the email
@@ -394,6 +434,7 @@ def get_alerts_by_email(email):
     return jsonify(alerts), 200
 
 @app.route('/api/alerts', methods=['GET'])
+@require_google_auth
 def get_alerts():
     """API endpoint to get all active alerts"""
     alerts = list(collection.find({'active': True}, {'_id': 0}))
@@ -882,6 +923,7 @@ def login_user():
             return jsonify({'error': f"An error occurred: {str(e)}", 'success': False}), 500
 
 @app.route('/api/users/check/<email>', methods=['GET'])
+@require_google_auth
 def check_user(email):
     """API endpoint to check if a user exists"""
     try:
@@ -916,6 +958,7 @@ def handle_users_check_options(email):
     return '', 200
 
 @app.route('/api/professors/search', methods=['GET'])
+@require_google_auth
 def search_professors():
     """API endpoint to search for professors with the best GPAs for a given department and course code"""
     department = request.args.get('department', '')
@@ -1625,6 +1668,7 @@ def search_professors():
             formatted_professors.append(professor)
         
         # Now add professors from current sections that don't have historical data
+        print(f'current professors: {current_instructors}')
         for curr_name, curr_data in current_instructors.items():
             # Skip if this professor already has historical data
             if any(p['name'] == curr_name for p in formatted_professors):
@@ -1643,7 +1687,7 @@ def search_professors():
             
             if has_historical_data:
                 continue
-                
+            
             # Get RateMyProfessor data
             rmp_data = {
                 "overall_rating": None,
@@ -1656,7 +1700,7 @@ def search_professors():
             if RMP_AVAILABLE:
                 try:
                     print(f"\n===== GETTING RMP DATA for {curr_name} ({curr_data['last_name']}) =====")
-                    rmp_data = RMP.get_professor_rating(curr_data['last_name'], department)
+                    rmp_data = RMP.get_professor_rating(curr_data['full_name'], department)
                     print(f"RMP data for {curr_name} ({curr_data['last_name']}): {rmp_data}")
                 except Exception as rmp_err:
                     print(f"Error getting RMP data for {curr_name}: {rmp_err}")
@@ -1849,6 +1893,7 @@ def search_professors():
         return jsonify({'error': f"An error occurred: {str(e)}"}), 500
 
 @app.route('/api/status', methods=['GET'])
+@require_google_auth
 def get_status():
     """API endpoint to get the status of various modules and services"""
     try:
@@ -1868,11 +1913,12 @@ def get_status():
         print(f"Error checking status: {str(e)}")
         return jsonify({'error': str(e)}), 500
 
-@app.route('/api/status', methods=['OPTIONS'])
-def handle_status_options():
-    return '', 200
+# @app.route('/api/status', methods=['OPTIONS'])
+# def handle_status_options():
+#     return '', 200
 
 @app.route('/api/verify-phone', methods=['POST'])
+@require_google_auth
 def verify_phone():
     """API endpoint to send a verification code to a phone number via SMS gateway"""
     data = request.json
@@ -1995,6 +2041,7 @@ def handle_verify_phone_options():
     return '', 200
 
 @app.route('/api/verify-phone/confirm', methods=['POST'])
+@require_google_auth
 def confirm_phone():
     """API endpoint to confirm a phone verification code and associate the phone with a user"""
     data = request.json
@@ -2208,6 +2255,7 @@ def handle_verify_phone_confirm_options():
     return '', 200
 
 @app.route('/api/users/profile', methods=['GET'])
+@require_google_auth
 def get_user_profile():
     """API endpoint to get a user's profile information including phone details"""
     email = request.args.get('email', '')
@@ -2329,6 +2377,7 @@ def handle_send_sms_options():
     return '', 200
 
 @app.route('/api/send-sms', methods=['POST'])
+@require_google_auth
 def send_sms():
     """API endpoint to send an SMS notification using email-to-SMS gateway"""
     try:
